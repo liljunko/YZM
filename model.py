@@ -57,7 +57,6 @@ def make_model(arch, layers, num_classes, pretrained, progress=True, **kwargs):
     return model
 
 
-import DataSet
-
-model = make_model("resnet50", [3, 4, 6, 3], DataSet.num_classes, False)
-model(torch.ones(1, 3, 128, 64))
+if __name__ == "__main__":
+    import DataSet
+    model = make_model("resnet50", [3, 4, 6, 3], DataSet.num_classes, False)
