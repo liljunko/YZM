@@ -17,14 +17,12 @@ model_urls = {
 
 
 class NonFcResNet(models.ResNet):
-    def __init__(
-        self, input_shape, output_lenght, block, layers, num_classes, **kwargs
-    ):
+    def __init__(self, output_lenght, block, layers, num_classes, **kwargs):
         super(NonFcResNet, self).__init__(block, layers, num_classes, **kwargs)
-        self.avgpool = torch.nn.AdaptiveAvgPool2d(output_lenght, 1)
+        self.avgpool = torch.nn.AdaptiveAvgPool2d((output_lenght, 1))
 
         self.ch2cls = torch.nn.Conv2d(
-            in_channel=512 * block.expansion, out_channel=num_classes, kernel_size=1
+            in_channels=512 * block.expansion, out_channels=num_classes, kernel_size=1
         )
 
     def forward(self, x):
@@ -47,8 +45,10 @@ class NonFcResNet(models.ResNet):
         return x
 
 
-def make_model(arch, layers, num_classes, pretrained, progress=True, **kwargs):
-    model = NonFcResNet(BasicBlock, layers, num_classes, **kwargs)
+def make_model(
+    arch, layers, num_classes, label_length, pretrained, progress=True, **kwargs
+):
+    model = NonFcResNet(label_length, BasicBlock, layers, num_classes, **kwargs)
     if pretrained:
         state_dict = models.load_state_dict_from_url(
             model_urls[arch], progress=progress
@@ -59,4 +59,5 @@ def make_model(arch, layers, num_classes, pretrained, progress=True, **kwargs):
 
 if __name__ == "__main__":
     import DataSet
+
     model = make_model("resnet50", [3, 4, 6, 3], DataSet.num_classes, False)
