@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/chenyuyang/anaconda3/envs/torchPV/bin/python"
+    "python.pythonPath": "D:\\software\\Anaconda3\\envs\\torch\\python.exe",
+    "python.formatting.provider": "yapf"
 }
