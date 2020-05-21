@@ -3,25 +3,18 @@ from torch.utils.data import DataLoader
 import torch.utils.tensorboard as tensorboard
 from model import make_model
 from default_config import Config
-from dataset import FakeDataset as dataset, num_classes, label_length, net_output_right
+from dataset import FakeDataset as fake_dataset
+from dataset import num_classes, label_length, net_output_right
 import time
 
 
 def make_dataloader(is_train, config):
     dataset_size = num_classes**label_length * 100 if is_train else num_classes**2
-    dset = dataset(dataset_size)
-    if config.cuda:
-        return DataLoader(
-            dset,
-            batch_size=config.batch_size,
-            num_workers=config.num_workers,
-            sampler=torch.utils.data.distributed.DistributedSampler(dset))
-    else:
-        return DataLoader(
-            dset,
-            batch_size=config.batch_size,
-            num_workers=config.num_workers,
-        )
+    dset = fake_dataset(dataset_size)
+    return DataLoader(dset,
+                      batch_size=config.batch_size,
+                      num_workers=config.num_workers,
+                      pin_memory=True)
 
 
 def train(config: Config):
