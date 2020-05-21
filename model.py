@@ -19,6 +19,8 @@ model_urls = {
 class NonFcResNet(models.ResNet):
     def __init__(self, output_lenght, block, layers, num_classes, **kwargs):
         super(NonFcResNet, self).__init__(block, layers, num_classes, **kwargs)
+        del self.fc
+        del self.avgpool
         self.avgpool = torch.nn.AdaptiveAvgPool2d((output_lenght, 1))
 
         self.ch2cls = torch.nn.Conv2d(
@@ -41,13 +43,13 @@ class NonFcResNet(models.ResNet):
 
         # shape = [batch,channel,width]
         x = x.squeeze(-1)
-        x = nn.functional.log_softmax(x, 1)
+        x = torch.nn.functional.log_softmax(x, 1)
         return x
 
 
 def make_model(
     arch, layers, num_classes, label_length, pretrained, progress=True, **kwargs
-):
+)->torch.nn.Module:
     model = NonFcResNet(label_length, BasicBlock, layers, num_classes, **kwargs)
     if pretrained:
         state_dict = models.load_state_dict_from_url(

@@ -18,6 +18,7 @@ characters = [
 char_pos = {c: i for i, c in enumerate(characters)}
 num_classes = len(characters)
 label_length = 4
+width,height=128,64
 
 # [classes, background]
 def encode(chars):
@@ -58,5 +59,10 @@ class FakeDataset(torch.utils.data.Dataset):
             np.random.choice(characters, self.label_length, replace=False)
         )
         image = to_tensor(self.generator.generate_image(random_str))
-        target = [encode(r) for r in random_str]
-        return image, target, random_str
+        target = [char_pos[r] for r in random_str]
+        return image, torch.tensor(target), random_str
+
+def net_output_right(input_data:torch.tensor,target:torch.tensor) -> float :
+    input_data = input_data.detach().cpu()
+    input_label = torch.argmax(input_data,dim=2).permute(1,0)
+    return (input_label == target.cpu()).all().item()

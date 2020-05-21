@@ -1,0 +1,131 @@
+Watch tensorboard log file for training details at position ./logs/first_logs/
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
+add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+add_(Tensor other, Number alpha)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
+addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcmul_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
+addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
+add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+add_(Tensor other, Number alpha)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
+addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcmul_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
+addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
+add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+add_(Tensor other, Number alpha)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
+addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcmul_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
+addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
+add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+add_(Tensor other, Number alpha)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
+addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcmul_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
+addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
+Image 16384; losses: 2.650; acc: 0.000; Time Cost: 37.9
+Image 32768; losses: 1.112; acc: 0.000; Time Cost: 18.0
+Image 49152; losses: 0.971; acc: 0.000; Time Cost: 18.0
+Image 65536; losses: 0.890; acc: 0.000; Time Cost: 18.9
+Image 81920; losses: 0.852; acc: 0.000; Time Cost: 18.4
+Image 98304; losses: 0.820; acc: 0.000; Time Cost: 18.3
+Image 114688; losses: 0.802; acc: 0.000; Time Cost: 18.2
+Image 131072; losses: 0.788; acc: 0.000; Time Cost: 18.5
+Image 147456; losses: 0.785; acc: 0.000; Time Cost: 18.1
+Image 163840; losses: 0.772; acc: 0.000; Time Cost: 18.5
+Image 180224; losses: 0.764; acc: 0.000; Time Cost: 18.5
+Image 196608; losses: 0.770; acc: 0.000; Time Cost: 18.6
+Image 212992; losses: 0.757; acc: 0.000; Time Cost: 18.3
+Image 229376; losses: 0.759; acc: 0.000; Time Cost: 18.8
+Image 245760; losses: 0.750; acc: 0.000; Time Cost: 18.9
+Image 262144; losses: 0.748; acc: 0.000; Time Cost: 18.8
+Image 278528; losses: 0.748; acc: 0.000; Time Cost: 18.4
+Image 294912; losses: 0.748; acc: 0.000; Time Cost: 18.7
+Traceback (most recent call last):
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 263, in <module>
+    main()
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 259, in main
+    cmd=cmd)
+subprocess.CalledProcessError: Command '['/home/chenyuyang/anaconda3/envs/torchPV/bin/python', '-u', 'run.py', '--local_rank=3']' died with <Signals.SIGTERM: 15>.
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Watch tensorboard log file for training details at position ./logs/first_logs/
+Traceback (most recent call last):
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 263, in <module>
+    main()
+  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 259, in main
+    cmd=cmd)
+subprocess.CalledProcessError: Command '['/home/chenyuyang/anaconda3/envs/torchPV/bin/python', '-u', 'run.py', '--local_rank=3']' died with <Signals.SIGTERM: 15>.
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Watch tensorboard log file for training details at position ./logs/first_logs/
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
+add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+add_(Tensor other, Number alpha)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
+addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcmul_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
+addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
+add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+add_(Tensor other, Number alpha)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
+addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcmul_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
+addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
+add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+add_(Tensor other, Number alpha)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
+addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcmul_(Tensor tensor1, Tensor tensor2, Number value)
+/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
+addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
