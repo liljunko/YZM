@@ -6,6 +6,7 @@ from captcha_rec import train
 
 if __name__ == "__main__":
     config = Config()
+    config.cuda = True
 
     if config.cuda:
         parser = argparse.ArgumentParser()

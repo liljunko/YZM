@@ -1,6 +1,6 @@
 class Config:
     lr = 1e-3
-    cuda = False
+    cuda = True
     batch_size = 256
     num_workers = 64
     print_step = 128
