@@ -1,5 +1,6 @@
 import torch
 import torch.utils.tensorboard as tensorboard
+from default_config import Config
 
 
 class RankWorker(object):
@@ -18,14 +19,14 @@ class RankWorker(object):
         if self.isWork:
             self.tx_writer.add_scalar(tag, scalar_value, global_step, walltime)
 
-    def print(self, **kargs):
+    def print(self, *args,**kargs):
         if self.isWork:
-            print(**kargs)
+            print(*args,**kargs)
 
-    def do(self, function, **kargs):
+    def do(self, function,*args, **kargs):
         if self.isWork:
-            return function(**kargs)
+            return function(*args,**kargs)
 
-    def save(self, filename, dict_saved):
+    def save(self, dict_saved,filename):
         if self.isWork:
             torch.save(dict_saved, filename)

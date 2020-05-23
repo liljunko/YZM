@@ -1,131 +1,193 @@
 Watch tensorboard log file for training details at position ./logs/first_logs/
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
-add_(Number alpha, Tensor other)
-Consider using one of the following signatures instead:
-add_(Tensor other, Number alpha)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
-addcmul_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcmul_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
-addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
-add_(Number alpha, Tensor other)
-Consider using one of the following signatures instead:
-add_(Tensor other, Number alpha)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
-addcmul_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcmul_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
-addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
-add_(Number alpha, Tensor other)
-Consider using one of the following signatures instead:
-add_(Tensor other, Number alpha)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
-addcmul_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcmul_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
-addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
-add_(Number alpha, Tensor other)
-Consider using one of the following signatures instead:
-add_(Tensor other, Number alpha)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
-addcmul_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcmul_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
-addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
-Image 16384; losses: 2.650; acc: 0.000; Time Cost: 37.9
-Image 32768; losses: 1.112; acc: 0.000; Time Cost: 18.0
-Image 49152; losses: 0.971; acc: 0.000; Time Cost: 18.0
-Image 65536; losses: 0.890; acc: 0.000; Time Cost: 18.9
-Image 81920; losses: 0.852; acc: 0.000; Time Cost: 18.4
-Image 98304; losses: 0.820; acc: 0.000; Time Cost: 18.3
-Image 114688; losses: 0.802; acc: 0.000; Time Cost: 18.2
-Image 131072; losses: 0.788; acc: 0.000; Time Cost: 18.5
-Image 147456; losses: 0.785; acc: 0.000; Time Cost: 18.1
-Image 163840; losses: 0.772; acc: 0.000; Time Cost: 18.5
-Image 180224; losses: 0.764; acc: 0.000; Time Cost: 18.5
-Image 196608; losses: 0.770; acc: 0.000; Time Cost: 18.6
-Image 212992; losses: 0.757; acc: 0.000; Time Cost: 18.3
-Image 229376; losses: 0.759; acc: 0.000; Time Cost: 18.8
-Image 245760; losses: 0.750; acc: 0.000; Time Cost: 18.9
-Image 262144; losses: 0.748; acc: 0.000; Time Cost: 18.8
-Image 278528; losses: 0.748; acc: 0.000; Time Cost: 18.4
-Image 294912; losses: 0.748; acc: 0.000; Time Cost: 18.7
-Traceback (most recent call last):
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 193, in _run_module_as_main
-    "__main__", mod_spec)
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 85, in _run_code
-    exec(code, run_globals)
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 263, in <module>
-    main()
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 259, in main
-    cmd=cmd)
-subprocess.CalledProcessError: Command '['/home/chenyuyang/anaconda3/envs/torchPV/bin/python', '-u', 'run.py', '--local_rank=3']' died with <Signals.SIGTERM: 15>.
-*****************************************
-Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
-*****************************************
-Watch tensorboard log file for training details at position ./logs/first_logs/
-Traceback (most recent call last):
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 193, in _run_module_as_main
-    "__main__", mod_spec)
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/runpy.py", line 85, in _run_code
-    exec(code, run_globals)
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 263, in <module>
-    main()
-  File "/home/chenyuyang/anaconda3/envs/torchPV/lib/python3.6/site-packages/torch/distributed/launch.py", line 259, in main
-    cmd=cmd)
-subprocess.CalledProcessError: Command '['/home/chenyuyang/anaconda3/envs/torchPV/bin/python', '-u', 'run.py', '--local_rank=3']' died with <Signals.SIGTERM: 15>.
-*****************************************
-Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
-*****************************************
-Watch tensorboard log file for training details at position ./logs/first_logs/
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
-add_(Number alpha, Tensor other)
-Consider using one of the following signatures instead:
-add_(Tensor other, Number alpha)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
-addcmul_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcmul_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
-addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
-add_(Number alpha, Tensor other)
-Consider using one of the following signatures instead:
-add_(Tensor other, Number alpha)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
-addcmul_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcmul_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
-addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1334: UserWarning: This overload of add_ is deprecated:
-add_(Number alpha, Tensor other)
-Consider using one of the following signatures instead:
-add_(Tensor other, Number alpha)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1550: UserWarning: This overload of addcmul_ is deprecated:
-addcmul_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcmul_(Tensor tensor1, Tensor tensor2, Number value)
-/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:1480: UserWarning: This overload of addcdiv_ is deprecated:
-addcdiv_(Number value, Tensor tensor1, Tensor tensor2)
-Consider using one of the following signatures instead:
-addcdiv_(Tensor tensor1, Tensor tensor2, Number value)
+Predict and target: tensor([-4.1452, -4.1438, -4.1449, -4.1453], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 51, 52, 52], device='cuda:0') tensor([42, 21, 29,  1], device='cuda:0')
+Image 16384; losses: 4.176; [Abs,mean]acc: [0.000, 0.017]; Time Cost: 149.7; Lr=0.01000
+Predict and target: tensor([-4.1469, -4.1457, -4.1458, -4.1457], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62, 62, 62, 62], device='cuda:0') tensor([15, 59, 13, 25], device='cuda:0')
+Image 32768; losses: 4.124; [Abs,mean]acc: [0.000, 0.023]; Time Cost: 144.6; Lr=0.01000
+Predict and target: tensor([-11.6770,  -5.6927, -10.1361,  -6.9079], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 26, 25, 58], device='cuda:0') tensor([25, 30, 39, 29], device='cuda:0')
+Image 49152; losses: 3.845; [Abs,mean]acc: [0.000, 0.054]; Time Cost: 148.2; Lr=0.01000
+Predict and target: tensor([-24.8541, -24.6445, -17.7628, -24.4489], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([29,  3, 11, 48], device='cuda:0') tensor([29,  3, 11, 48], device='cuda:0')
+Image 65536; losses: 1.041; [Abs,mean]acc: [0.244, 0.646]; Time Cost: 148.5; Lr=0.01000
+Predict and target: tensor([-28.7685, -23.2719, -19.8434, -27.9726], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 11, 46,  8], device='cuda:0') tensor([48, 11, 46,  8], device='cuda:0')
+Image 81920; losses: 0.300; [Abs,mean]acc: [0.631, 0.889]; Time Cost: 149.0; Lr=0.01000
+Predict and target: tensor([-28.3991, -22.3836, -28.9854, -21.1915], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([15, 35, 43, 22], device='cuda:0') tensor([15, 35, 43, 22], device='cuda:0')
+Image 98304; losses: 0.199; [Abs,mean]acc: [0.729, 0.923]; Time Cost: 148.9; Lr=0.01000
+Predict and target: tensor([-28.0931, -37.0282, -21.7356, -15.3732], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([19, 38, 46, 49], device='cuda:0') tensor([19, 38, 46, 49], device='cuda:0')
+Image 114688; losses: 0.157; [Abs,mean]acc: [0.779, 0.939]; Time Cost: 150.4; Lr=0.01000
+Predict and target: tensor([-26.4109, -16.2784, -27.0346, -40.1120], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([23, 19, 18,  7], device='cuda:0') tensor([23, 19, 18,  7], device='cuda:0')
+Image 131072; losses: 0.134; [Abs,mean]acc: [0.802, 0.946]; Time Cost: 147.6; Lr=0.00950
+Predict and target: tensor([-24.1873, -34.1252, -21.5644, -21.4519], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([56, 54, 32, 19], device='cuda:0') tensor([56, 54, 32, 19], device='cuda:0')
+Image 147456; losses: 0.116; [Abs,mean]acc: [0.827, 0.953]; Time Cost: 149.6; Lr=0.00950
+Predict and target: tensor([-17.7876, -27.4792, -16.5339, -14.8124], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 26, 38,  2], device='cuda:0') tensor([58, 26, 17,  2], device='cuda:0')
+Image 163840; losses: 0.106; [Abs,mean]acc: [0.845, 0.958]; Time Cost: 149.3; Lr=0.00950
+Predict and target: tensor([-23.5889, -31.2031, -28.5789, -29.0039], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 59,  1, 25], device='cuda:0') tensor([ 8, 59, 51, 25], device='cuda:0')
+Image 180224; losses: 0.096; [Abs,mean]acc: [0.853, 0.961]; Time Cost: 151.1; Lr=0.00950
+Predict and target: tensor([-18.5499, -15.6584, -19.9625, -28.4483], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57, 14, 58,  1], device='cuda:0') tensor([31, 14, 32,  1], device='cuda:0')
+Image 196608; losses: 0.091; [Abs,mean]acc: [0.865, 0.965]; Time Cost: 149.9; Lr=0.00950
+Predict and target: tensor([-24.9091, -20.3155, -27.4490, -33.7432], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 4, 60, 52, 30], device='cuda:0') tensor([ 4, 60, 52, 30], device='cuda:0')
+Image 212992; losses: 0.086; [Abs,mean]acc: [0.872, 0.966]; Time Cost: 148.7; Lr=0.00950
+Predict and target: tensor([-34.8339, -27.1491, -27.0551, -13.4706], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([53, 43, 48, 37], device='cuda:0') tensor([53, 43, 48, 37], device='cuda:0')
+Image 229376; losses: 0.082; [Abs,mean]acc: [0.876, 0.967]; Time Cost: 146.7; Lr=0.00950
+Predict and target: tensor([-21.5633, -19.9719, -13.1893, -29.3325], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46,  4, 42, 17], device='cuda:0') tensor([46,  4, 42, 17], device='cuda:0')
+Image 245760; losses: 0.081; [Abs,mean]acc: [0.876, 0.968]; Time Cost: 148.1; Lr=0.00950
+Predict and target: tensor([-27.0974, -26.6682, -35.7994, -24.5445], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 19, 27, 56], device='cuda:0') tensor([ 8, 19, 27, 56], device='cuda:0')
+Image 262144; losses: 0.073; [Abs,mean]acc: [0.888, 0.971]; Time Cost: 150.2; Lr=0.00903
+Predict and target: tensor([-22.3789, -17.5367, -32.1427, -25.2679], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21, 50,  9,  4], device='cuda:0') tensor([21, 50,  9,  4], device='cuda:0')
+Image 278528; losses: 0.072; [Abs,mean]acc: [0.889, 0.971]; Time Cost: 148.3; Lr=0.00903
+Predict and target: tensor([-27.3349, -23.4101, -12.3628, -10.8968], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([61, 18, 50, 50], device='cuda:0') tensor([61, 18, 50, 33], device='cuda:0')
+Image 294912; losses: 0.069; [Abs,mean]acc: [0.895, 0.973]; Time Cost: 148.7; Lr=0.00903
+Predict and target: tensor([-19.4070, -25.6909, -29.3221, -25.4702], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21, 43, 10, 48], device='cuda:0') tensor([21, 43, 10, 48], device='cuda:0')
+Image 311296; losses: 0.066; [Abs,mean]acc: [0.899, 0.974]; Time Cost: 150.6; Lr=0.00903
+Predict and target: tensor([-2.4595e+01, -2.3976e+01, -7.6294e-06, -2.5039e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 18,  0, 42], device='cuda:0') tensor([31, 18,  0, 42], device='cuda:0')
+Image 327680; losses: 0.062; [Abs,mean]acc: [0.900, 0.974]; Time Cost: 148.9; Lr=0.00903
+Predict and target: tensor([-29.7458, -22.2925, -20.2041, -23.7168], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([59, 39,  1, 25], device='cuda:0') tensor([59, 39,  1, 25], device='cuda:0')
+Image 344064; losses: 0.062; [Abs,mean]acc: [0.904, 0.975]; Time Cost: 148.3; Lr=0.00903
+Predict and target: tensor([-13.7087, -15.2230, -23.7586, -25.0075], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([14, 31, 13, 48], device='cuda:0') tensor([14, 31, 13, 48], device='cuda:0')
+Image 360448; losses: 0.065; [Abs,mean]acc: [0.902, 0.975]; Time Cost: 147.3; Lr=0.00903
+Predict and target: tensor([-25.8996, -19.7872, -15.2693, -28.9658], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([45, 38, 24, 54], device='cuda:0') tensor([45, 38, 24, 54], device='cuda:0')
+Image 376832; losses: 0.072; [Abs,mean]acc: [0.895, 0.972]; Time Cost: 148.9; Lr=0.00903
+Predict and target: tensor([-26.2282, -19.7613, -18.8019, -21.9823], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 61, 58, 60], device='cuda:0') tensor([ 8, 61, 58, 60], device='cuda:0')
+Image 393216; losses: 0.060; [Abs,mean]acc: [0.911, 0.977]; Time Cost: 149.7; Lr=0.00857
+Predict and target: tensor([-27.8319, -30.5434, -28.7429, -29.8049], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57, 44, 56, 62], device='cuda:0') tensor([57, 44, 56, 62], device='cuda:0')
+Image 409600; losses: 0.059; [Abs,mean]acc: [0.908, 0.976]; Time Cost: 149.6; Lr=0.00857
+Predict and target: tensor([-31.0292, -22.0711, -33.7438, -19.3370], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 24, 12, 31], device='cuda:0') tensor([38, 24, 12, 31], device='cuda:0')
+Image 425984; losses: 0.057; [Abs,mean]acc: [0.911, 0.977]; Time Cost: 148.7; Lr=0.00857
+Predict and target: tensor([-15.6442, -29.5442, -25.3439, -32.1204], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([33, 18, 22, 12], device='cuda:0') tensor([33, 18, 22, 12], device='cuda:0')
+Image 442368; losses: 0.056; [Abs,mean]acc: [0.914, 0.978]; Time Cost: 149.0; Lr=0.00857
+Predict and target: tensor([-30.4043, -17.2908, -19.5168, -27.4382], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 28, 29, 21], device='cuda:0') tensor([10, 28, 29, 21], device='cuda:0')
+Image 458752; losses: 0.052; [Abs,mean]acc: [0.920, 0.979]; Time Cost: 147.8; Lr=0.00857
+Predict and target: tensor([-27.9731, -30.2442, -24.7723, -27.5287], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48,  1, 11,  3], device='cuda:0') tensor([48, 51, 11,  3], device='cuda:0')
+Image 475136; losses: 0.050; [Abs,mean]acc: [0.920, 0.979]; Time Cost: 150.9; Lr=0.00857
+Predict and target: tensor([-11.3736, -27.5196, -21.4154, -37.4715], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([50, 18, 35, 59], device='cuda:0') tensor([50, 18, 35, 59], device='cuda:0')
+Image 491520; losses: 0.053; [Abs,mean]acc: [0.920, 0.979]; Time Cost: 147.9; Lr=0.00857
+Predict and target: tensor([-30.3999, -18.8158, -33.2044, -16.1355], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 34, 44, 32], device='cuda:0') tensor([10, 34, 44, 32], device='cuda:0')
+Image 507904; losses: 0.051; [Abs,mean]acc: [0.919, 0.979]; Time Cost: 150.0; Lr=0.00857
+Predict and target: tensor([-26.6991, -31.0160, -28.2048, -13.3539], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([12, 59, 18,  2], device='cuda:0') tensor([12, 59, 18,  2], device='cuda:0')
+Image 524288; losses: 0.050; [Abs,mean]acc: [0.924, 0.980]; Time Cost: 148.7; Lr=0.00815
+Predict and target: tensor([-2.4998e+01, -2.9373e-04, -1.8056e+01, -3.1902e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48,  0, 37, 53], device='cuda:0') tensor([48,  0, 37, 53], device='cuda:0')
+Image 540672; losses: 0.050; [Abs,mean]acc: [0.920, 0.980]; Time Cost: 149.7; Lr=0.00815
+Predict and target: tensor([-24.0020,  -8.7095, -23.6615, -22.2218], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30, 34, 39, 27], device='cuda:0') tensor([30, 34, 39, 27], device='cuda:0')
+Image 557056; losses: 0.047; [Abs,mean]acc: [0.927, 0.981]; Time Cost: 150.1; Lr=0.00815
+Predict and target: tensor([-26.6728, -22.7343, -31.4827, -29.5936], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([55, 39, 10, 27], device='cuda:0') tensor([55, 39, 10, 27], device='cuda:0')
+Image 573440; losses: 0.050; [Abs,mean]acc: [0.918, 0.979]; Time Cost: 148.7; Lr=0.00815
+Predict and target: tensor([-22.2166, -30.4337, -20.0263, -22.2896], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([33, 56, 43, 41], device='cuda:0') tensor([33, 56, 43, 41], device='cuda:0')
+Image 589824; losses: 0.045; [Abs,mean]acc: [0.930, 0.982]; Time Cost: 150.6; Lr=0.00815
+Predict and target: tensor([-23.4005, -16.0292, -16.4000, -22.0099], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([55, 50, 29, 40], device='cuda:0') tensor([55, 50, 29, 40], device='cuda:0')
+Image 606208; losses: 0.047; [Abs,mean]acc: [0.928, 0.982]; Time Cost: 147.5; Lr=0.00815
+Predict and target: tensor([-24.0998, -20.1171, -21.7880, -13.6483], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 37, 46, 28], device='cuda:0') tensor([42, 37, 46, 28], device='cuda:0')
+Image 622592; losses: 0.044; [Abs,mean]acc: [0.931, 0.982]; Time Cost: 149.8; Lr=0.00815
+Predict and target: tensor([-28.0518, -20.1359, -23.0082, -23.5082], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([19, 31, 62, 22], device='cuda:0') tensor([19, 31, 62, 22], device='cuda:0')
+Image 638976; losses: 0.046; [Abs,mean]acc: [0.927, 0.981]; Time Cost: 150.8; Lr=0.00815
+Predict and target: tensor([-30.8149, -19.0532, -16.2994, -23.3826], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 9, 43, 37, 57], device='cuda:0') tensor([ 9, 43, 37, 57], device='cuda:0')
+Image 655360; losses: 0.046; [Abs,mean]acc: [0.930, 0.982]; Time Cost: 149.0; Lr=0.00774
+Predict and target: tensor([-11.3350, -16.5946, -20.6368, -15.4354], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 17, 33,  5], device='cuda:0') tensor([ 2, 17, 33,  5], device='cuda:0')
+Image 671744; losses: 0.044; [Abs,mean]acc: [0.933, 0.983]; Time Cost: 149.7; Lr=0.00774
+Predict and target: tensor([-24.8695, -22.6208, -17.7577, -17.9088], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 18,  5, 28], device='cuda:0') tensor([42, 18,  5, 28], device='cuda:0')
+Image 688128; losses: 0.044; [Abs,mean]acc: [0.932, 0.983]; Time Cost: 148.3; Lr=0.00774
+Predict and target: tensor([-23.2189, -26.9124, -21.2919, -28.1520], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 23, 62, 53], device='cuda:0') tensor([46, 23, 36, 53], device='cuda:0')
+Image 704512; losses: 0.045; [Abs,mean]acc: [0.930, 0.982]; Time Cost: 151.2; Lr=0.00774
+Predict and target: tensor([-22.7637, -23.1801, -24.6655, -23.6058], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52,  3,  8, 18], device='cuda:0') tensor([52,  3,  8, 18], device='cuda:0')
+Image 720896; losses: 0.041; [Abs,mean]acc: [0.937, 0.984]; Time Cost: 149.2; Lr=0.00774
+Predict and target: tensor([-28.4703, -22.4157, -15.7166, -21.5872], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([27, 24, 28, 18], device='cuda:0') tensor([27, 24, 28, 18], device='cuda:0')
+Image 737280; losses: 0.043; [Abs,mean]acc: [0.934, 0.983]; Time Cost: 147.9; Lr=0.00774
+Predict and target: tensor([-20.9202, -30.0228, -22.3151,  -8.6934], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([58, 17, 16,  2], device='cuda:0') tensor([58, 17, 16,  2], device='cuda:0')
+Image 753664; losses: 0.043; [Abs,mean]acc: [0.933, 0.983]; Time Cost: 151.0; Lr=0.00774
+Predict and target: tensor([-11.9535, -23.3901, -25.2971, -24.9335], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 45,  6, 38], device='cuda:0') tensor([ 2, 45,  6, 38], device='cuda:0')
+Image 770048; losses: 0.042; [Abs,mean]acc: [0.935, 0.983]; Time Cost: 151.1; Lr=0.00735
+Predict and target: tensor([-24.7662, -25.2239, -19.3764, -22.0024], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([23, 14, 50,  3], device='cuda:0') tensor([23, 14, 50,  3], device='cuda:0')
+Image 786432; losses: 0.041; [Abs,mean]acc: [0.936, 0.983]; Time Cost: 147.7; Lr=0.00735
+Predict and target: tensor([-14.7313, -24.8922, -28.3449, -14.8081], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32,  8, 53,  2], device='cuda:0') tensor([32,  8, 53,  2], device='cuda:0')
+Image 802816; losses: 0.041; [Abs,mean]acc: [0.938, 0.984]; Time Cost: 149.2; Lr=0.00735
+Predict and target: tensor([-25.8267, -20.5639, -21.9717, -36.0607], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 40, 46, 17], device='cuda:0') tensor([51, 40, 46, 17], device='cuda:0')
+Image 819200; losses: 0.040; [Abs,mean]acc: [0.939, 0.985]; Time Cost: 148.9; Lr=0.00735
+Predict and target: tensor([-27.9603, -26.8399, -22.1207, -31.6470], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 54, 52,  9], device='cuda:0') tensor([ 8, 54, 52,  9], device='cuda:0')
+Image 835584; losses: 0.041; [Abs,mean]acc: [0.937, 0.984]; Time Cost: 148.7; Lr=0.00735
+Predict and target: tensor([-27.2234, -24.9780, -32.7742, -25.6865], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([20, 18,  7, 26], device='cuda:0') tensor([20, 18,  7, 26], device='cuda:0')
+Image 851968; losses: 0.039; [Abs,mean]acc: [0.940, 0.985]; Time Cost: 150.1; Lr=0.00735
+Predict and target: tensor([-26.4225, -21.6178, -27.5594, -27.9644], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62, 14, 45, 18], device='cuda:0') tensor([62, 14, 45, 18], device='cuda:0')
+Image 868352; losses: 0.038; [Abs,mean]acc: [0.940, 0.985]; Time Cost: 150.8; Lr=0.00735
+Predict and target: tensor([  0.0000, -29.6726, -13.9745, -20.6900], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 0,  7, 16,  5], device='cuda:0') tensor([ 0,  7, 16,  5], device='cuda:0')
+Image 884736; losses: 0.039; [Abs,mean]acc: [0.941, 0.985]; Time Cost: 151.0; Lr=0.00735
+Predict and target: tensor([-22.4393, -24.3714, -27.7820, -27.9984], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60, 50, 30, 55], device='cuda:0') tensor([60, 50, 30, 55], device='cuda:0')
+Image 901120; losses: 0.038; [Abs,mean]acc: [0.942, 0.985]; Time Cost: 148.5; Lr=0.00698
+Predict and target: tensor([-22.8090, -18.8202, -16.3334, -24.3883], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26, 34, 58, 18], device='cuda:0') tensor([26, 60, 32, 18], device='cuda:0')
+Image 917504; losses: 0.037; [Abs,mean]acc: [0.943, 0.985]; Time Cost: 149.8; Lr=0.00698
+Predict and target: tensor([-19.6121,  -8.2276, -23.9972, -22.8989], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57,  2, 30, 18], device='cuda:0') tensor([57,  2, 30, 18], device='cuda:0')
+Image 933888; losses: 0.038; [Abs,mean]acc: [0.943, 0.985]; Time Cost: 149.1; Lr=0.00698
+Predict and target: tensor([-26.0109, -13.5306, -15.9228, -29.9020], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([43, 50, 58, 53], device='cuda:0') tensor([43, 50, 58, 53], device='cuda:0')
+Image 950272; losses: 0.037; [Abs,mean]acc: [0.945, 0.986]; Time Cost: 149.7; Lr=0.00698
+Predict and target: tensor([-16.6378, -16.4228, -20.6536, -22.8422], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22, 57, 51,  6], device='cuda:0') tensor([22, 57, 51,  6], device='cuda:0')
+Image 966656; losses: 0.037; [Abs,mean]acc: [0.944, 0.986]; Time Cost: 149.1; Lr=0.00698
+Predict and target: tensor([-23.2234, -17.1158, -20.6764, -23.7554], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([19, 34, 50, 42], device='cuda:0') tensor([19, 34, 50, 42], device='cuda:0')
+Image 983040; losses: 0.037; [Abs,mean]acc: [0.942, 0.985]; Time Cost: 149.6; Lr=0.00698
+Predict and target: tensor([-26.2748, -21.4388, -21.5663, -23.7145], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([53, 58, 34, 19], device='cuda:0') tensor([53, 32, 34, 19], device='cuda:0')
+Image 999424; losses: 0.036; [Abs,mean]acc: [0.945, 0.986]; Time Cost: 150.1; Lr=0.00698
+Predict and target: tensor([-2.6340e-03, -2.5720e+01, -1.7558e+01, -2.7853e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 0, 12,  5, 51], device='cuda:0') tensor([ 0, 12,  5, 51], device='cuda:0')
+Image 1015808; losses: 0.036; [Abs,mean]acc: [0.942, 0.985]; Time Cost: 150.0; Lr=0.00698
+Predict and target: tensor([-26.5357, -23.7449, -23.2994, -23.6102], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 27, 16, 56], device='cuda:0') tensor([51, 27, 16, 56], device='cuda:0')
+Image 1032192; losses: 0.035; [Abs,mean]acc: [0.945, 0.986]; Time Cost: 149.4; Lr=0.00663
+Predict and target: tensor([-20.2026, -28.8452, -24.9158, -29.2989], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 33, 46, 35], device='cuda:0') tensor([13, 33, 46, 35], device='cuda:0')
+Image 1048576; losses: 0.034; [Abs,mean]acc: [0.946, 0.986]; Time Cost: 150.0; Lr=0.00663
