@@ -1,6 +1,8 @@
 # YZM
 验证码识别，使用[ResNet](https://pytorch.org/hub/pytorch_vision_resnet/) + Ctc loss实现
 
+人生苦短，我用PyTorch，如果有人使用Tensorflow 可能需要重新写代码。
+
 
 ## 目标
 识别 4 * (26个小写字母 + 26个大写字母 + 10个数字 = 62个字符) 的验证码。
@@ -52,10 +54,13 @@ tensorboard --logdir=logs/first_logs --bind_all
 
 ## 可改进点
 1. 在dataset.py 中，使用了 to_tensor() 把图片转化为 tensor。但是并没有进行归一化和数据增强，因为在假数据集结果已经非常好了。使用比赛的话，最好加上归一化和数据增强，**不然效果会下降很多**
+
 2. 我使用了标准ResNet50，因为假数据集有很多数据，不怕过拟合。如果你们出现过拟合了，可以考虑ResNet修改captcha.py 中的layer
 ```python
  model = make_model("resnet50", [3, 4, 6, 3], num_classes, label_length, False)
  ```
  其中[3,4,6,3] 就是标准ResNet50 layer 描述，可以做出修改。
+ 
  3. 模型在真实数据集，大概应该可以达到0.8以上的效果，如果你们追求0.9+。可以考虑一下弱监督目标检测。
+ 
  4. 询问好是否可以使用外部数据源，比如公共数据集 / 模型预训练 / 假数据。 如果可以的话， 用进来。如果不允许使用假数据集，不要从假数据集训练的模型接着训练，即刚刚开始训练的时候，请在run.py 设置 config.model_resume = None
