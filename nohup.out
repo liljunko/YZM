@@ -191,3 +191,1170 @@ Image 1032192; losses: 0.035; [Abs,mean]acc: [0.945, 0.986]; Time Cost: 149.4; L
 Predict and target: tensor([-20.2026, -28.8452, -24.9158, -29.2989], device='cuda:0',
        grad_fn=<SelectBackward>) tensor([13, 33, 46, 35], device='cuda:0') tensor([13, 33, 46, 35], device='cuda:0')
 Image 1048576; losses: 0.034; [Abs,mean]acc: [0.946, 0.986]; Time Cost: 150.0; Lr=0.00663
+Predict and target: tensor([-23.2027, -19.9941, -21.2663, -13.7013], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 22, 14, 32], device='cuda:0') tensor([39, 22, 14, 32], device='cuda:0')
+Image 1064960; losses: 0.033; [Abs,mean]acc: [0.950, 0.987]; Time Cost: 150.3; Lr=0.00663
+Predict and target: tensor([-17.0291, -29.6776, -23.2708, -24.3604], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 33, 41, 62], device='cuda:0') tensor([31, 33, 41, 62], device='cuda:0')
+Image 1081344; losses: 0.035; [Abs,mean]acc: [0.943, 0.985]; Time Cost: 150.2; Lr=0.00663
+Predict and target: tensor([-19.1464, -22.8703, -20.2695, -23.2952], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 52,  8, 16], device='cuda:0') tensor([32, 52,  8, 16], device='cuda:0')
+Image 1097728; losses: 0.032; [Abs,mean]acc: [0.951, 0.987]; Time Cost: 150.6; Lr=0.00663
+Predict and target: tensor([-28.6278, -21.5899, -20.1280, -20.6987], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([44, 47, 61,  4], device='cuda:0') tensor([44, 47, 61,  4], device='cuda:0')
+Image 1114112; losses: 0.034; [Abs,mean]acc: [0.949, 0.987]; Time Cost: 148.7; Lr=0.00663
+Predict and target: tensor([-2.2313e+01, -1.9073e-06, -2.2664e+01, -2.5215e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 7,  0, 13, 12], device='cuda:0') tensor([ 7,  0, 13, 12], device='cuda:0')
+Image 1130496; losses: 0.034; [Abs,mean]acc: [0.945, 0.986]; Time Cost: 150.1; Lr=0.00663
+Predict and target: tensor([-28.9503, -27.3125, -27.1111, -25.2888], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([33, 52, 48, 26], device='cuda:0') tensor([33, 52, 48, 26], device='cuda:0')
+Image 1146880; losses: 0.034; [Abs,mean]acc: [0.947, 0.986]; Time Cost: 147.7; Lr=0.00663
+Predict and target: tensor([-17.7125, -20.2080, -23.1866, -26.9984], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48,  1, 19, 54], device='cuda:0') tensor([48,  1, 19, 54], device='cuda:0')
+Image 1163264; losses: 0.033; [Abs,mean]acc: [0.950, 0.987]; Time Cost: 150.2; Lr=0.00630
+Predict and target: tensor([-24.4682, -23.8054, -22.3205, -17.8626], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 17, 33, 48], device='cuda:0') tensor([52, 17, 33, 48], device='cuda:0')
+Image 1179648; losses: 0.033; [Abs,mean]acc: [0.947, 0.987]; Time Cost: 150.3; Lr=0.00630
+Predict and target: tensor([-14.4697, -14.8984, -29.2509, -20.4925], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 28, 20, 43], device='cuda:0') tensor([32, 28, 20, 43], device='cuda:0')
+Image 1196032; losses: 0.032; [Abs,mean]acc: [0.950, 0.987]; Time Cost: 149.5; Lr=0.00630
+Predict and target: tensor([-23.0680, -26.1388, -25.2491, -26.2767], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 37, 53, 61], device='cuda:0') tensor([ 3, 37, 53, 61], device='cuda:0')
+Image 1212416; losses: 0.033; [Abs,mean]acc: [0.946, 0.986]; Time Cost: 150.8; Lr=0.00630
+Predict and target: tensor([-22.9700, -26.9138, -20.3066, -20.9602], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([55, 17, 37,  1], device='cuda:0') tensor([55, 17, 37,  1], device='cuda:0')
+Image 1228800; losses: 0.033; [Abs,mean]acc: [0.950, 0.987]; Time Cost: 149.4; Lr=0.00630
+Predict and target: tensor([-24.9352, -30.0823, -23.2164, -20.4106], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 4, 27, 46, 43], device='cuda:0') tensor([ 4, 27, 46, 43], device='cuda:0')
+Image 1245184; losses: 0.033; [Abs,mean]acc: [0.950, 0.987]; Time Cost: 149.6; Lr=0.00630
+Predict and target: tensor([-17.9509, -20.8200, -23.7829, -20.7918], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([49, 28, 37, 41], device='cuda:0') tensor([49, 28, 37, 41], device='cuda:0')
+Image 1261568; losses: 0.031; [Abs,mean]acc: [0.951, 0.987]; Time Cost: 149.2; Lr=0.00630
+Predict and target: tensor([-20.4703, -34.5229, -22.4481, -20.4487], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16, 35, 30, 45], device='cuda:0') tensor([16, 35, 30, 45], device='cuda:0')
+Image 1277952; losses: 0.032; [Abs,mean]acc: [0.950, 0.987]; Time Cost: 148.8; Lr=0.00630
+Predict and target: tensor([-14.1772, -17.6436, -20.4860, -21.4527], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([49, 48, 55, 11], device='cuda:0') tensor([49, 48, 55, 11], device='cuda:0')
+Image 1294336; losses: 0.032; [Abs,mean]acc: [0.950, 0.987]; Time Cost: 150.9; Lr=0.00599
+Predict and target: tensor([-19.7734, -20.3034, -18.8560, -22.6856], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 41,  1, 48], device='cuda:0') tensor([18, 41,  1, 48], device='cuda:0')
+Image 1310720; losses: 0.033; [Abs,mean]acc: [0.948, 0.987]; Time Cost: 149.2; Lr=0.00599
+Predict and target: tensor([-24.7857, -19.9957, -16.2719, -21.8433], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 9, 52,  8, 55], device='cuda:0') tensor([ 9, 52,  8, 55], device='cuda:0')
+Image 1327104; losses: 0.030; [Abs,mean]acc: [0.954, 0.988]; Time Cost: 151.1; Lr=0.00599
+Predict and target: tensor([-29.1349, -27.1392, -31.7166, -16.8532], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 18,  9, 28], device='cuda:0') tensor([54, 18,  9, 28], device='cuda:0')
+Image 1343488; losses: 0.031; [Abs,mean]acc: [0.949, 0.987]; Time Cost: 149.2; Lr=0.00599
+Predict and target: tensor([-21.7750,  -9.9713, -14.5805, -19.4543], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 32, 31, 26], device='cuda:0') tensor([39, 32, 31, 26], device='cuda:0')
+Image 1359872; losses: 0.031; [Abs,mean]acc: [0.953, 0.988]; Time Cost: 149.5; Lr=0.00599
+Predict and target: tensor([-28.0737, -25.8441, -24.0630, -24.6539], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([49, 21,  3, 30], device='cuda:0') tensor([49, 21,  3, 30], device='cuda:0')
+Image 1376256; losses: 0.029; [Abs,mean]acc: [0.953, 0.988]; Time Cost: 151.5; Lr=0.00599
+Predict and target: tensor([-12.2301, -16.6187, -21.9866, -22.2930], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 37, 30, 21], device='cuda:0') tensor([25, 37, 30, 21], device='cuda:0')
+Image 1392640; losses: 0.031; [Abs,mean]acc: [0.952, 0.988]; Time Cost: 150.8; Lr=0.00599
+Predict and target: tensor([-20.1756, -17.2246, -21.5760, -25.0144], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30, 46, 18,  9], device='cuda:0') tensor([30, 46, 18,  9], device='cuda:0')
+Image 1409024; losses: 0.029; [Abs,mean]acc: [0.954, 0.988]; Time Cost: 151.1; Lr=0.00569
+Predict and target: tensor([-26.2446, -29.0527, -13.1417, -25.2632], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([17,  6, 22, 53], device='cuda:0') tensor([17,  6, 22, 53], device='cuda:0')
+Image 1425408; losses: 0.030; [Abs,mean]acc: [0.953, 0.988]; Time Cost: 148.1; Lr=0.00569
+Predict and target: tensor([-28.1821, -27.5272, -19.5850, -32.5015], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 48, 28, 10], device='cuda:0') tensor([52, 48, 28, 10], device='cuda:0')
+Image 1441792; losses: 0.030; [Abs,mean]acc: [0.952, 0.988]; Time Cost: 150.6; Lr=0.00569
+Predict and target: tensor([-19.7136, -25.1550, -21.4955, -24.8490], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([34, 42, 41, 51], device='cuda:0') tensor([34, 42, 41, 51], device='cuda:0')
+Image 1458176; losses: 0.029; [Abs,mean]acc: [0.955, 0.989]; Time Cost: 149.4; Lr=0.00569
+Predict and target: tensor([-19.4649, -15.1171, -18.4920, -24.5132], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30, 34, 55, 36], device='cuda:0') tensor([30, 34, 55, 36], device='cuda:0')
+Image 1474560; losses: 0.030; [Abs,mean]acc: [0.955, 0.988]; Time Cost: 150.1; Lr=0.00569
+Predict and target: tensor([-24.4235, -25.2111, -25.0953, -25.1789], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21, 48, 55,  4], device='cuda:0') tensor([21, 48, 55,  4], device='cuda:0')
+Image 1490944; losses: 0.029; [Abs,mean]acc: [0.955, 0.988]; Time Cost: 149.8; Lr=0.00569
+Predict and target: tensor([-23.9575, -16.6010, -19.1475, -16.5782], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([45, 55, 14, 34], device='cuda:0') tensor([45, 55, 14, 34], device='cuda:0')
+Image 1507328; losses: 0.029; [Abs,mean]acc: [0.957, 0.989]; Time Cost: 148.1; Lr=0.00569
+Predict and target: tensor([-17.8385, -17.0146, -20.2492, -21.7525], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 51, 35, 52], device='cuda:0') tensor([42,  1, 35, 52], device='cuda:0')
+Image 1523712; losses: 0.029; [Abs,mean]acc: [0.956, 0.989]; Time Cost: 149.8; Lr=0.00569
+Predict and target: tensor([-23.3243, -24.4879, -21.8255, -19.7322], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([43, 50, 55, 14], device='cuda:0') tensor([43, 50, 55, 14], device='cuda:0')
+Image 1540096; losses: 0.028; [Abs,mean]acc: [0.956, 0.989]; Time Cost: 148.9; Lr=0.00540
+Predict and target: tensor([-24.6453, -27.9471, -26.5595, -31.5164], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26,  7, 10, 61], device='cuda:0') tensor([26,  7, 10, 61], device='cuda:0')
+Image 1556480; losses: 0.028; [Abs,mean]acc: [0.957, 0.989]; Time Cost: 149.8; Lr=0.00540
+Predict and target: tensor([-19.2401, -18.8187, -18.0912, -22.2509], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([17, 29, 34, 43], device='cuda:0') tensor([17, 29, 34, 43], device='cuda:0')
+Image 1572864; losses: 0.029; [Abs,mean]acc: [0.956, 0.989]; Time Cost: 149.1; Lr=0.00540
+Predict and target: tensor([-23.3878, -21.1481, -19.9523, -20.0926], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21, 22, 46, 52], device='cuda:0') tensor([21, 22, 46, 52], device='cuda:0')
+Image 1589248; losses: 0.029; [Abs,mean]acc: [0.957, 0.989]; Time Cost: 151.3; Lr=0.00540
+Predict and target: tensor([-2.6661e+01, -1.9646e-03, -1.8528e+01, -1.7160e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([23,  0, 42,  2], device='cuda:0') tensor([23,  0, 42,  2], device='cuda:0')
+Image 1605632; losses: 0.029; [Abs,mean]acc: [0.957, 0.989]; Time Cost: 149.8; Lr=0.00540
+Predict and target: tensor([-21.6624, -37.0983, -24.1774, -32.9647], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([14, 59, 60, 27], device='cuda:0') tensor([14, 59, 60, 27], device='cuda:0')
+Image 1622016; losses: 0.028; [Abs,mean]acc: [0.956, 0.989]; Time Cost: 147.3; Lr=0.00540
+Predict and target: tensor([-34.7935, -19.8959, -26.2365, -32.3173], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([47, 31, 51, 59], device='cuda:0') tensor([47, 31, 51, 59], device='cuda:0')
+Image 1638400; losses: 0.028; [Abs,mean]acc: [0.958, 0.989]; Time Cost: 148.6; Lr=0.00540
+Predict and target: tensor([-14.6881, -24.9247, -28.4971, -17.1658], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 30, 23, 58], device='cuda:0') tensor([ 2, 30, 23, 58], device='cuda:0')
+Image 1654784; losses: 0.028; [Abs,mean]acc: [0.955, 0.988]; Time Cost: 148.4; Lr=0.00540
+Predict and target: tensor([-21.6677, -23.4378, -25.7845, -24.7950], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 19, 30, 20], device='cuda:0') tensor([39, 19, 30, 20], device='cuda:0')
+Image 1671168; losses: 0.027; [Abs,mean]acc: [0.956, 0.989]; Time Cost: 149.8; Lr=0.00513
+Predict and target: tensor([-25.7959, -18.3756, -14.1240, -28.4714], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([20, 13,  2, 47], device='cuda:0') tensor([20, 13,  2, 47], device='cuda:0')
+Image 1687552; losses: 0.027; [Abs,mean]acc: [0.956, 0.989]; Time Cost: 151.8; Lr=0.00513
+Predict and target: tensor([-14.1913, -20.5914, -23.8525, -21.6109], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 1, 55,  3, 38], device='cuda:0') tensor([ 1, 55,  3, 38], device='cuda:0')
+Image 1703936; losses: 0.027; [Abs,mean]acc: [0.958, 0.989]; Time Cost: 149.0; Lr=0.00513
+Predict and target: tensor([-18.8352, -19.8319, -17.4560, -11.4996], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 5, 28, 31, 32], device='cuda:0') tensor([ 5, 28, 31, 58], device='cuda:0')
+Image 1720320; losses: 0.028; [Abs,mean]acc: [0.956, 0.989]; Time Cost: 148.2; Lr=0.00513
+Predict and target: tensor([-16.5725, -22.0531, -29.0327, -24.1118], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 40, 18, 44], device='cuda:0') tensor([32, 40, 18, 44], device='cuda:0')
+Image 1736704; losses: 0.026; [Abs,mean]acc: [0.958, 0.989]; Time Cost: 149.7; Lr=0.00513
+Predict and target: tensor([-28.9439, -20.2212, -21.6260, -22.0588], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 45, 16, 15], device='cuda:0') tensor([48, 45, 16, 15], device='cuda:0')
+Image 1753088; losses: 0.027; [Abs,mean]acc: [0.960, 0.990]; Time Cost: 148.5; Lr=0.00513
+Predict and target: tensor([-22.3418, -20.1996, -19.4005, -26.3615], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([47, 52,  4, 19], device='cuda:0') tensor([47, 52,  4, 19], device='cuda:0')
+Image 1769472; losses: 0.026; [Abs,mean]acc: [0.960, 0.990]; Time Cost: 151.0; Lr=0.00513
+Predict and target: tensor([-21.1192, -22.1260, -12.7222, -23.4760], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([36, 27, 28,  4], device='cuda:0') tensor([36, 27, 28,  4], device='cuda:0')
+Image 1785856; losses: 0.027; [Abs,mean]acc: [0.957, 0.989]; Time Cost: 149.7; Lr=0.00513
+Predict and target: tensor([-18.6618, -16.4879, -17.0264, -23.6960], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([24, 12,  4,  7], device='cuda:0') tensor([24, 12,  4,  7], device='cuda:0')
+Image 1802240; losses: 0.027; [Abs,mean]acc: [0.959, 0.990]; Time Cost: 148.4; Lr=0.00488
+Predict and target: tensor([-28.6999, -25.4919, -26.7670, -30.3850], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([23, 12, 56, 53], device='cuda:0') tensor([23, 12, 56, 53], device='cuda:0')
+Image 1818624; losses: 0.025; [Abs,mean]acc: [0.960, 0.990]; Time Cost: 150.5; Lr=0.00488
+Predict and target: tensor([-24.7402, -20.3165, -25.1787, -27.2913], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 52, 61, 10], device='cuda:0') tensor([ 8, 52, 61, 10], device='cuda:0')
+Image 1835008; losses: 0.024; [Abs,mean]acc: [0.961, 0.990]; Time Cost: 148.7; Lr=0.00488
+Predict and target: tensor([-18.9504, -24.2884, -18.4438, -29.0048], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62, 10,  1, 22], device='cuda:0') tensor([62, 10,  1, 22], device='cuda:0')
+Image 1851392; losses: 0.025; [Abs,mean]acc: [0.960, 0.990]; Time Cost: 150.5; Lr=0.00488
+Predict and target: tensor([-13.0147, -21.2021, -25.4667, -19.9484], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 62, 24, 14], device='cuda:0') tensor([32, 62, 24, 14], device='cuda:0')
+Image 1867776; losses: 0.026; [Abs,mean]acc: [0.960, 0.990]; Time Cost: 150.0; Lr=0.00488
+Predict and target: tensor([-26.3457, -21.1080, -24.9561,   0.0000], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([53, 39, 12,  0], device='cuda:0') tensor([53, 39, 12,  0], device='cuda:0')
+Image 1884160; losses: 0.025; [Abs,mean]acc: [0.960, 0.990]; Time Cost: 151.0; Lr=0.00488
+Predict and target: tensor([-20.6472, -20.2860, -18.6874, -25.3477], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([36, 31, 22,  4], device='cuda:0') tensor([36, 31, 22,  4], device='cuda:0')
+Image 1900544; losses: 0.026; [Abs,mean]acc: [0.961, 0.990]; Time Cost: 149.2; Lr=0.00488
+Predict and target: tensor([-19.9752, -15.1407, -17.4084, -19.9021], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([55, 29, 43, 12], device='cuda:0') tensor([55, 29, 43, 12], device='cuda:0')
+Image 1916928; losses: 0.026; [Abs,mean]acc: [0.961, 0.990]; Time Cost: 150.3; Lr=0.00488
+Predict and target: tensor([-12.3854, -25.3073, -15.6471, -25.5613], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 27, 21,  7], device='cuda:0') tensor([ 2, 27, 21,  7], device='cuda:0')
+Image 1933312; losses: 0.025; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 149.6; Lr=0.00463
+Predict and target: tensor([-17.6268, -22.6508, -16.8863, -16.6003], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 15, 12, 28], device='cuda:0') tensor([18, 15, 12, 28], device='cuda:0')
+Image 1949696; losses: 0.025; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 148.4; Lr=0.00463
+Predict and target: tensor([-24.8782, -18.7490, -22.0406, -25.4441], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([35, 34, 14, 12], device='cuda:0') tensor([35, 34, 14, 12], device='cuda:0')
+Image 1966080; losses: 0.027; [Abs,mean]acc: [0.959, 0.990]; Time Cost: 144.7; Lr=0.00463
+Predict and target: tensor([-22.1047, -29.6464, -33.3909, -29.9779], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([29, 59, 19,  7], device='cuda:0') tensor([29, 59, 19,  7], device='cuda:0')
+Image 1982464; losses: 0.024; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 149.7; Lr=0.00463
+Predict and target: tensor([-16.9165, -30.8215, -18.8370, -19.7238], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([34, 59, 37, 56], device='cuda:0') tensor([34, 59, 37, 56], device='cuda:0')
+Image 1998848; losses: 0.024; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 152.0; Lr=0.00463
+Predict and target: tensor([-20.9091, -26.1270, -21.9756, -20.1642], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([23, 10, 17, 28], device='cuda:0') tensor([23, 10, 17, 28], device='cuda:0')
+Image 2015232; losses: 0.024; [Abs,mean]acc: [0.961, 0.990]; Time Cost: 151.1; Lr=0.00463
+Predict and target: tensor([-16.8952, -15.4118, -20.8584, -22.3394], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([28, 32, 23, 12], device='cuda:0') tensor([28, 32, 23, 12], device='cuda:0')
+Image 2031616; losses: 0.023; [Abs,mean]acc: [0.964, 0.991]; Time Cost: 148.9; Lr=0.00463
+Predict and target: tensor([-16.6950, -22.9936, -23.2183, -20.6505], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([29, 21, 59, 38], device='cuda:0') tensor([29, 21, 59, 38], device='cuda:0')
+Image 2048000; losses: 0.024; [Abs,mean]acc: [0.963, 0.990]; Time Cost: 150.4; Lr=0.00440
+Predict and target: tensor([-29.9824, -17.8498, -11.3874, -20.1432], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([35, 50, 58, 62], device='cuda:0') tensor([35, 50, 58, 62], device='cuda:0')
+Image 2064384; losses: 0.023; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 150.6; Lr=0.00440
+Predict and target: tensor([-23.4439, -19.9157, -20.9618, -24.9017], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38,  5,  8,  6], device='cuda:0') tensor([38,  5,  8,  6], device='cuda:0')
+Image 2080768; losses: 0.023; [Abs,mean]acc: [0.965, 0.991]; Time Cost: 150.4; Lr=0.00440
+Predict and target: tensor([-18.4477, -23.9337, -23.9827, -21.0569], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57,  8, 61, 39], device='cuda:0') tensor([57,  8, 61, 39], device='cuda:0')
+Image 2097152; losses: 0.024; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 150.6; Lr=0.00440
+Predict and target: tensor([-16.3778, -23.7326, -26.1573, -20.3487], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60, 38,  6, 25], device='cuda:0') tensor([60, 38,  6, 25], device='cuda:0')
+Image 2113536; losses: 0.024; [Abs,mean]acc: [0.963, 0.991]; Time Cost: 149.5; Lr=0.00440
+Predict and target: tensor([-22.3002, -26.4636, -31.5447, -26.2270], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48,  7, 59,  9], device='cuda:0') tensor([48,  7, 59,  9], device='cuda:0')
+Image 2129920; losses: 0.025; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 151.3; Lr=0.00440
+Predict and target: tensor([-25.4517, -17.3588, -25.0461, -21.4952], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([53, 48, 17, 57], device='cuda:0') tensor([53, 48, 17, 57], device='cuda:0')
+Image 2146304; losses: 0.025; [Abs,mean]acc: [0.961, 0.990]; Time Cost: 150.3; Lr=0.00440
+Predict and target: tensor([-27.4956, -23.7941, -17.4539, -19.8774], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([12,  8,  2, 22], device='cuda:0') tensor([12,  8,  2, 22], device='cuda:0')
+Image 2162688; losses: 0.025; [Abs,mean]acc: [0.961, 0.990]; Time Cost: 149.4; Lr=0.00440
+Predict and target: tensor([-18.9580, -27.7054, -28.2581, -16.5137], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([29, 35,  7, 32], device='cuda:0') tensor([29, 35,  7, 32], device='cuda:0')
+Image 2179072; losses: 0.023; [Abs,mean]acc: [0.964, 0.991]; Time Cost: 147.9; Lr=0.00418
+Predict and target: tensor([-20.3854, -19.0419, -19.3403, -27.8376], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([15,  4, 37,  9], device='cuda:0') tensor([15,  4, 37,  9], device='cuda:0')
+Image 2195456; losses: 0.025; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 151.9; Lr=0.00418
+Predict and target: tensor([-15.9899, -18.1072, -20.6277, -19.4648], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 55, 12, 17], device='cuda:0') tensor([39, 55, 12, 17], device='cuda:0')
+Image 2211840; losses: 0.024; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 149.8; Lr=0.00418
+Predict and target: tensor([-22.6187, -23.2594, -30.2660, -19.0041], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 43, 54, 31], device='cuda:0') tensor([46, 43, 54, 31], device='cuda:0')
+Image 2228224; losses: 0.022; [Abs,mean]acc: [0.965, 0.991]; Time Cost: 149.0; Lr=0.00418
+Predict and target: tensor([-28.2299, -32.0654, -27.2699, -22.9488], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 9, 61, 11, 15], device='cuda:0') tensor([ 9, 61, 11, 15], device='cuda:0')
+Image 2244608; losses: 0.024; [Abs,mean]acc: [0.962, 0.990]; Time Cost: 150.6; Lr=0.00418
+Predict and target: tensor([-25.3500, -17.0140, -23.3298, -31.3174], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 29, 31, 44], device='cuda:0') tensor([10, 29, 31, 44], device='cuda:0')
+Image 2260992; losses: 0.023; [Abs,mean]acc: [0.963, 0.991]; Time Cost: 150.3; Lr=0.00418
+Predict and target: tensor([-15.5205, -18.4526, -26.5790, -25.2675], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([34, 60, 19, 56], device='cuda:0') tensor([34, 60, 19, 56], device='cuda:0')
+Image 2277376; losses: 0.022; [Abs,mean]acc: [0.966, 0.992]; Time Cost: 150.8; Lr=0.00418
+Predict and target: tensor([-13.8538, -15.2090, -19.1794, -15.1243], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 14, 48,  1], device='cuda:0') tensor([25, 14, 48, 51], device='cuda:0')
+Image 2293760; losses: 0.023; [Abs,mean]acc: [0.965, 0.991]; Time Cost: 149.8; Lr=0.00418
+Predict and target: tensor([-22.2830, -26.9442, -28.6356, -30.5608], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21,  6, 20, 26], device='cuda:0') tensor([21,  6, 20, 26], device='cuda:0')
+Image 2310144; losses: 0.023; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 150.4; Lr=0.00397
+Predict and target: tensor([-29.2977, -28.9071, -25.7067, -21.4140], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([17, 12, 44, 41], device='cuda:0') tensor([17, 12, 44, 41], device='cuda:0')
+Image 2326528; losses: 0.022; [Abs,mean]acc: [0.965, 0.991]; Time Cost: 151.7; Lr=0.00397
+Predict and target: tensor([-24.0812, -22.8701, -21.2809, -20.5568], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([33, 42, 56,  8], device='cuda:0') tensor([33, 42, 56,  8], device='cuda:0')
+Image 2342912; losses: 0.022; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 147.7; Lr=0.00397
+Predict and target: tensor([-18.4406, -20.1748, -26.1432, -21.0776], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([50, 27, 47, 21], device='cuda:0') tensor([50, 27, 47, 21], device='cuda:0')
+Image 2359296; losses: 0.024; [Abs,mean]acc: [0.963, 0.991]; Time Cost: 147.8; Lr=0.00397
+Predict and target: tensor([-26.4851, -21.2528, -22.3568, -18.9367], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21, 43,  4, 51], device='cuda:0') tensor([21, 43,  4, 51], device='cuda:0')
+Image 2375680; losses: 0.022; [Abs,mean]acc: [0.965, 0.991]; Time Cost: 149.2; Lr=0.00397
+Predict and target: tensor([-26.7991, -18.2231, -23.4883, -16.6268], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 6,  2, 27, 58], device='cuda:0') tensor([ 6,  2, 27, 58], device='cuda:0')
+Image 2392064; losses: 0.023; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 148.0; Lr=0.00397
+Predict and target: tensor([-19.8988, -27.0690, -18.0766, -12.7092], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 17, 62,  2], device='cuda:0') tensor([48, 17, 62,  2], device='cuda:0')
+Image 2408448; losses: 0.022; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 147.9; Lr=0.00397
+Predict and target: tensor([-2.4245e+01, -2.3172e+01, -2.6684e+01, -1.9073e-06], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([36, 13, 38,  0], device='cuda:0') tensor([36, 13, 38,  0], device='cuda:0')
+Image 2424832; losses: 0.024; [Abs,mean]acc: [0.963, 0.991]; Time Cost: 149.3; Lr=0.00397
+Predict and target: tensor([-17.4830, -15.4400, -13.4135, -22.6663], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 50, 45, 56], device='cuda:0') tensor([40, 50, 45, 56], device='cuda:0')
+Image 2441216; losses: 0.022; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 150.0; Lr=0.00377
+Predict and target: tensor([-31.0200, -17.3806, -24.8887,   0.0000], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([27, 41, 46,  0], device='cuda:0') tensor([27, 41, 46,  0], device='cuda:0')
+Image 2457600; losses: 0.023; [Abs,mean]acc: [0.965, 0.991]; Time Cost: 151.9; Lr=0.00377
+Predict and target: tensor([-23.6220, -20.7737,   0.0000, -22.3625], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([43, 62,  0, 53], device='cuda:0') tensor([43, 62,  0, 53], device='cuda:0')
+Image 2473984; losses: 0.021; [Abs,mean]acc: [0.968, 0.992]; Time Cost: 150.0; Lr=0.00377
+Predict and target: tensor([-29.4073, -22.7390, -34.7637, -16.4491], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26, 28, 59, 51], device='cuda:0') tensor([26, 28, 59, 51], device='cuda:0')
+Image 2490368; losses: 0.021; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 150.5; Lr=0.00377
+Predict and target: tensor([-17.5439, -21.8880, -18.3508, -25.2186], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 34, 57, 13], device='cuda:0') tensor([32, 34, 57, 13], device='cuda:0')
+Image 2506752; losses: 0.022; [Abs,mean]acc: [0.966, 0.992]; Time Cost: 150.6; Lr=0.00377
+Predict and target: tensor([-29.0142, -22.8317, -17.9404, -33.0195], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 24, 60, 59], device='cuda:0') tensor([48, 24, 60, 59], device='cuda:0')
+Image 2523136; losses: 0.022; [Abs,mean]acc: [0.967, 0.992]; Time Cost: 149.4; Lr=0.00377
+Predict and target: tensor([-22.3476, -24.2829, -19.5636, -20.9454], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([24, 50, 15, 42], device='cuda:0') tensor([24, 50, 15, 42], device='cuda:0')
+Image 2539520; losses: 0.021; [Abs,mean]acc: [0.967, 0.992]; Time Cost: 149.1; Lr=0.00377
+Predict and target: tensor([-18.9465, -17.7586,  -7.6957, -20.5462], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 50, 35, 12], device='cuda:0') tensor([31, 50, 35, 12], device='cuda:0')
+Image 2555904; losses: 0.023; [Abs,mean]acc: [0.963, 0.991]; Time Cost: 148.9; Lr=0.00377
+Predict and target: tensor([-14.6818, -21.6992, -21.6387, -13.9510], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([58, 55, 10, 51], device='cuda:0') tensor([58, 55, 10, 51], device='cuda:0')
+Image 2572288; losses: 0.022; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 148.8; Lr=0.00358
+Predict and target: tensor([-19.4727, -20.8704, -20.6854, -14.9846], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 35,  7, 58], device='cuda:0') tensor([38, 35,  7, 58], device='cuda:0')
+Image 2588672; losses: 0.021; [Abs,mean]acc: [0.967, 0.992]; Time Cost: 149.3; Lr=0.00358
+Predict and target: tensor([-18.7310, -22.7670, -27.9053, -19.6641], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([28, 38, 36, 14], device='cuda:0') tensor([28, 38, 36, 14], device='cuda:0')
+Image 2605056; losses: 0.021; [Abs,mean]acc: [0.967, 0.992]; Time Cost: 148.3; Lr=0.00358
+Predict and target: tensor([-22.2533, -21.5322, -22.7195, -29.2420], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22, 41, 16, 23], device='cuda:0') tensor([22, 41, 16, 23], device='cuda:0')
+Image 2621440; losses: 0.020; [Abs,mean]acc: [0.968, 0.992]; Time Cost: 151.1; Lr=0.00358
+Predict and target: tensor([-24.8147, -16.3077, -15.4902, -17.0585], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16, 36,  1, 11], device='cuda:0') tensor([16, 36,  1, 11], device='cuda:0')
+Image 2637824; losses: 0.020; [Abs,mean]acc: [0.967, 0.992]; Time Cost: 148.8; Lr=0.00358
+Predict and target: tensor([-21.6752, -22.5631, -26.5676, -21.8668], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 18, 47, 24], device='cuda:0') tensor([54, 18, 47, 24], device='cuda:0')
+Image 2654208; losses: 0.022; [Abs,mean]acc: [0.964, 0.991]; Time Cost: 148.9; Lr=0.00358
+Predict and target: tensor([-20.6400, -19.1496, -24.0512, -22.8829], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 60,  9, 54], device='cuda:0') tensor([ 8, 60,  9, 54], device='cuda:0')
+Image 2670592; losses: 0.022; [Abs,mean]acc: [0.967, 0.992]; Time Cost: 150.4; Lr=0.00358
+Predict and target: tensor([-14.9423, -16.2532, -20.9905, -21.1707], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13,  2, 11, 54], device='cuda:0') tensor([13,  2, 11, 54], device='cuda:0')
+Image 2686976; losses: 0.022; [Abs,mean]acc: [0.966, 0.991]; Time Cost: 147.4; Lr=0.00358
+Predict and target: tensor([-23.1212, -23.2676, -18.6625, -20.9712], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 11,  5, 28], device='cuda:0') tensor([ 3, 11,  5, 28], device='cuda:0')
+Image 2703360; losses: 0.021; [Abs,mean]acc: [0.968, 0.992]; Time Cost: 150.2; Lr=0.00341
+Predict and target: tensor([-17.3741, -25.4163, -24.9020, -25.4609], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([34, 59,  9, 30], device='cuda:0') tensor([34, 59,  9, 30], device='cuda:0')
+Image 2719744; losses: 0.020; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 147.9; Lr=0.00341
+Predict and target: tensor([-16.1395, -16.9772, -21.0044, -25.3976], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([29, 57, 34, 52], device='cuda:0') tensor([29, 57, 34, 52], device='cuda:0')
+Image 2736128; losses: 0.021; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 149.2; Lr=0.00341
+Predict and target: tensor([-20.7417, -30.1312, -27.8890, -30.8268], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([56, 26, 19,  9], device='cuda:0') tensor([56, 26, 19,  9], device='cuda:0')
+Image 2752512; losses: 0.020; [Abs,mean]acc: [0.968, 0.992]; Time Cost: 148.0; Lr=0.00341
+Predict and target: tensor([-23.4249, -27.0996, -21.0033, -16.7179], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 43, 60, 57], device='cuda:0') tensor([42, 43, 60, 57], device='cuda:0')
+Image 2768896; losses: 0.021; [Abs,mean]acc: [0.968, 0.992]; Time Cost: 150.4; Lr=0.00341
+Predict and target: tensor([-25.1657, -30.6338, -29.4241, -26.2554], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 26, 30, 18], device='cuda:0') tensor([13, 26, 30, 18], device='cuda:0')
+Image 2785280; losses: 0.020; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 149.7; Lr=0.00341
+Predict and target: tensor([-18.8467, -22.8806, -22.2363, -17.7404], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 44, 28,  2], device='cuda:0') tensor([42, 44, 28,  2], device='cuda:0')
+Image 2801664; losses: 0.019; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 151.4; Lr=0.00341
+Predict and target: tensor([-28.3265, -23.4253, -20.5613, -17.9551], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22, 40, 36, 60], device='cuda:0') tensor([22, 40, 36, 60], device='cuda:0')
+Image 2818048; losses: 0.019; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 150.3; Lr=0.00324
+Predict and target: tensor([-27.8075, -26.6096, -15.5932, -21.9341], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30,  9, 14, 42], device='cuda:0') tensor([30,  9, 14, 42], device='cuda:0')
+Image 2834432; losses: 0.020; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 150.0; Lr=0.00324
+Predict and target: tensor([-16.1408, -23.9137, -24.9960, -20.6784], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 1, 46, 16,  8], device='cuda:0') tensor([ 1, 46, 16,  8], device='cuda:0')
+Image 2850816; losses: 0.019; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 150.7; Lr=0.00324
+Predict and target: tensor([-22.1740, -22.8810, -20.2745, -24.6088], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([45, 40, 23, 10], device='cuda:0') tensor([45, 40, 23, 10], device='cuda:0')
+Image 2867200; losses: 0.019; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 148.8; Lr=0.00324
+Predict and target: tensor([-25.1421, -19.5693, -21.9165, -17.7228], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 7, 56, 46,  3], device='cuda:0') tensor([ 7, 56, 46,  3], device='cuda:0')
+Image 2883584; losses: 0.020; [Abs,mean]acc: [0.968, 0.992]; Time Cost: 148.7; Lr=0.00324
+Predict and target: tensor([  0.0000, -15.2303, -27.9655, -27.8860], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 0, 32, 23,  9], device='cuda:0') tensor([ 0, 32, 23,  9], device='cuda:0')
+Image 2899968; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 151.1; Lr=0.00324
+Predict and target: tensor([-26.3488, -29.0038, -26.5389, -20.4979], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16, 48, 47, 57], device='cuda:0') tensor([16, 48, 47, 57], device='cuda:0')
+Image 2916352; losses: 0.020; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 149.3; Lr=0.00324
+Predict and target: tensor([-23.0602, -22.1421, -18.2367, -19.2548], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([37, 18, 12, 38], device='cuda:0') tensor([37, 18, 12, 38], device='cuda:0')
+Image 2932736; losses: 0.020; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 151.8; Lr=0.00324
+Predict and target: tensor([-1.7329e+01, -2.1401e+01, -2.4393e+01, -5.7220e-06], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60, 47, 61,  0], device='cuda:0') tensor([60, 47, 61,  0], device='cuda:0')
+Image 2949120; losses: 0.020; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 149.4; Lr=0.00307
+Predict and target: tensor([-2.5995e+01, -1.9476e+01, -2.1225e+01, -5.7220e-06], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 44, 23,  0], device='cuda:0') tensor([48, 44, 23,  0], device='cuda:0')
+Image 2965504; losses: 0.020; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 151.6; Lr=0.00307
+Predict and target: tensor([-22.7094, -28.0466, -18.3112, -18.7644], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([15, 27, 36, 18], device='cuda:0') tensor([15, 27, 36, 18], device='cuda:0')
+Image 2981888; losses: 0.018; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 150.0; Lr=0.00307
+Predict and target: tensor([-13.9831, -23.6660, -21.5833, -20.6063], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25,  2, 24, 21], device='cuda:0') tensor([25,  2, 24, 21], device='cuda:0')
+Image 2998272; losses: 0.019; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 148.7; Lr=0.00307
+Predict and target: tensor([-22.3282, -32.8292, -33.7724, -24.4365], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 54, 59, 18], device='cuda:0') tensor([39, 54, 59, 18], device='cuda:0')
+Image 3014656; losses: 0.019; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 147.1; Lr=0.00307
+Predict and target: tensor([-23.1637, -14.5103, -18.5104, -24.5358], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([56, 32, 40,  4], device='cuda:0') tensor([56, 32, 40,  4], device='cuda:0')
+Image 3031040; losses: 0.021; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 150.3; Lr=0.00307
+Predict and target: tensor([-22.3829, -26.0455, -23.5849, -26.4384], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52,  6,  5, 40], device='cuda:0') tensor([52,  6,  5, 40], device='cuda:0')
+Image 3047424; losses: 0.019; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 148.8; Lr=0.00307
+Predict and target: tensor([-15.1013, -23.3874, -20.3414, -24.1323], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([58, 17, 24,  3], device='cuda:0') tensor([58, 17, 24,  3], device='cuda:0')
+Image 3063808; losses: 0.020; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 147.8; Lr=0.00307
+Predict and target: tensor([-24.0010, -20.5987, -30.8955, -23.7811], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30,  2, 54,  8], device='cuda:0') tensor([30,  2, 54,  8], device='cuda:0')
+Image 3080192; losses: 0.019; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 150.2; Lr=0.00292
+Predict and target: tensor([-22.1803, -18.9428, -21.2617, -20.6431], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 22, 21, 43], device='cuda:0') tensor([ 8, 22, 21, 43], device='cuda:0')
+Image 3096576; losses: 0.018; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 149.3; Lr=0.00292
+Predict and target: tensor([-16.9251, -21.8148, -21.8968, -17.8673], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 23, 24, 57], device='cuda:0') tensor([42, 23, 24, 57], device='cuda:0')
+Image 3112960; losses: 0.019; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 148.7; Lr=0.00292
+Predict and target: tensor([-22.9176, -12.9508, -22.3497, -17.6329], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([37, 60, 22, 13], device='cuda:0') tensor([37, 60, 22, 13], device='cuda:0')
+Image 3129344; losses: 0.019; [Abs,mean]acc: [0.970, 0.993]; Time Cost: 151.7; Lr=0.00292
+Predict and target: tensor([-19.2544, -19.9089, -26.3532, -32.1724], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57, 42, 10, 35], device='cuda:0') tensor([57, 42, 10, 35], device='cuda:0')
+Image 3145728; losses: 0.021; [Abs,mean]acc: [0.966, 0.992]; Time Cost: 150.0; Lr=0.00292
+Predict and target: tensor([-20.6220, -23.0542, -25.0624, -23.0060], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40,  8,  6, 48], device='cuda:0') tensor([40,  8,  6, 48], device='cuda:0')
+Image 3162112; losses: 0.019; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 149.8; Lr=0.00292
+Predict and target: tensor([-16.8244, -20.7958, -17.8334, -22.6552], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([24, 17, 34,  3], device='cuda:0') tensor([24, 17, 34,  3], device='cuda:0')
+Image 3178496; losses: 0.018; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 149.8; Lr=0.00292
+Predict and target: tensor([-24.2295, -20.0619, -27.2771, -21.5293], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 50, 11, 29], device='cuda:0') tensor([54, 50, 11, 29], device='cuda:0')
+Image 3194880; losses: 0.019; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 148.7; Lr=0.00292
+Predict and target: tensor([-16.6637, -23.4093, -24.0956, -18.9473], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 20, 19, 42], device='cuda:0') tensor([39, 20, 19, 42], device='cuda:0')
+Image 3211264; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 149.6; Lr=0.00277
+Predict and target: tensor([-18.6266, -20.5302, -25.7246, -14.4166], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([12, 37, 40, 58], device='cuda:0') tensor([12, 37, 40, 58], device='cuda:0')
+Image 3227648; losses: 0.019; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 150.0; Lr=0.00277
+Predict and target: tensor([-20.2854, -22.9923, -19.9768, -23.3927], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 12, 17, 37], device='cuda:0') tensor([ 2, 12, 17, 37], device='cuda:0')
+Image 3244032; losses: 0.018; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 151.4; Lr=0.00277
+Predict and target: tensor([-25.8794, -16.2244, -19.1160, -19.2222], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 32,  8, 28], device='cuda:0') tensor([10, 58,  8, 28], device='cuda:0')
+Image 3260416; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 151.3; Lr=0.00277
+Predict and target: tensor([-24.0216, -13.4543, -25.6179, -27.5845], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 58, 46, 33], device='cuda:0') tensor([42, 58, 46, 33], device='cuda:0')
+Image 3276800; losses: 0.018; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 148.6; Lr=0.00277
+Predict and target: tensor([-20.2553, -22.3990, -23.1017, -21.7853], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62, 17, 45, 41], device='cuda:0') tensor([62, 17, 45, 41], device='cuda:0')
+Image 3293184; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 148.1; Lr=0.00277
+Predict and target: tensor([-22.9000, -23.4052, -22.0193, -22.5292], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26, 18, 44, 10], device='cuda:0') tensor([26, 18, 44, 10], device='cuda:0')
+Image 3309568; losses: 0.018; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 148.7; Lr=0.00277
+Predict and target: tensor([-24.6166, -19.2473, -20.4686, -22.5331], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([23, 57, 31, 60], device='cuda:0') tensor([23, 57, 31, 60], device='cuda:0')
+Image 3325952; losses: 0.020; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 149.5; Lr=0.00277
+Predict and target: tensor([-16.8469, -20.4749, -28.9359, -28.1988], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([37, 61, 30, 35], device='cuda:0') tensor([37, 61, 30, 35], device='cuda:0')
+Image 3342336; losses: 0.018; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 147.4; Lr=0.00264
+Predict and target: tensor([-30.9083, -26.6216, -21.5591, -19.4436], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([59, 46, 17, 18], device='cuda:0') tensor([59, 46, 17, 18], device='cuda:0')
+Image 3358720; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 148.6; Lr=0.00264
+Predict and target: tensor([-23.8618, -14.2820, -16.6353, -20.1012], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22, 31, 13,  4], device='cuda:0') tensor([22, 31, 13,  4], device='cuda:0')
+Image 3375104; losses: 0.018; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 149.5; Lr=0.00264
+Predict and target: tensor([-25.2863,   0.0000, -23.2410, -19.3177], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22,  0, 42, 13], device='cuda:0') tensor([22,  0, 42, 13], device='cuda:0')
+Image 3391488; losses: 0.019; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 151.1; Lr=0.00264
+Predict and target: tensor([-24.7452, -20.6354, -18.5156, -21.1451], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 30, 36, 18], device='cuda:0') tensor([40, 30, 36, 18], device='cuda:0')
+Image 3407872; losses: 0.019; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 149.1; Lr=0.00264
+Predict and target: tensor([-20.1781, -21.2778, -21.4213, -20.7396], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21,  3, 44, 62], device='cuda:0') tensor([21,  3, 44, 62], device='cuda:0')
+Image 3424256; losses: 0.018; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 149.8; Lr=0.00264
+Predict and target: tensor([  0.0000, -18.7417, -17.8086, -20.0363], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 0, 17, 38, 12], device='cuda:0') tensor([ 0, 17, 38, 12], device='cuda:0')
+Image 3440640; losses: 0.018; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 149.0; Lr=0.00264
+Predict and target: tensor([-20.0040, -17.5050, -29.5751, -27.0780], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 50, 44, 45], device='cuda:0') tensor([46, 50, 44, 45], device='cuda:0')
+Image 3457024; losses: 0.019; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 150.5; Lr=0.00250
+Predict and target: tensor([-26.9043, -21.1303, -20.7974, -24.2142], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([36, 37, 24, 50], device='cuda:0') tensor([36, 37, 24, 50], device='cuda:0')
+Image 3473408; losses: 0.018; [Abs,mean]acc: [0.974, 0.993]; Time Cost: 150.1; Lr=0.00250
+Predict and target: tensor([-17.4810, -16.4909, -16.4116, -19.4193], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 13,  3, 24], device='cuda:0') tensor([ 2, 13,  3, 24], device='cuda:0')
+Image 3489792; losses: 0.018; [Abs,mean]acc: [0.969, 0.992]; Time Cost: 150.7; Lr=0.00250
+Predict and target: tensor([-23.1051, -26.6608, -20.0801, -26.3162], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 12, 32, 30], device='cuda:0') tensor([46, 12, 32, 30], device='cuda:0')
+Image 3506176; losses: 0.018; [Abs,mean]acc: [0.971, 0.993]; Time Cost: 149.8; Lr=0.00250
+Predict and target: tensor([-29.4971, -16.5316, -18.6458, -22.7682], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([61, 58, 57, 11], device='cuda:0') tensor([61, 58, 57, 11], device='cuda:0')
+Image 3522560; losses: 0.019; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 153.9; Lr=0.00250
+Predict and target: tensor([-17.2231, -18.5741, -23.8642, -21.0681], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22, 62, 43,  8], device='cuda:0') tensor([22, 62, 43,  8], device='cuda:0')
+Image 3538944; losses: 0.019; [Abs,mean]acc: [0.970, 0.993]; Time Cost: 149.1; Lr=0.00250
+Predict and target: tensor([-23.7955, -21.5214, -22.5178, -27.1334], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26,  9, 20, 35], device='cuda:0') tensor([26,  9, 20, 35], device='cuda:0')
+Image 3555328; losses: 0.018; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 150.5; Lr=0.00250
+Predict and target: tensor([-22.1938, -20.6110, -22.4516, -23.0110], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([35, 45, 17, 56], device='cuda:0') tensor([35, 45, 17, 56], device='cuda:0')
+Image 3571712; losses: 0.017; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 149.8; Lr=0.00250
+Predict and target: tensor([-2.2821e+01, -2.0286e+01, -1.9866e+01, -3.0518e-05], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([49, 41, 18,  0], device='cuda:0') tensor([49, 41, 18,  0], device='cuda:0')
+Image 3588096; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 151.2; Lr=0.00238
+Predict and target: tensor([-24.7498, -22.1272, -30.9871, -21.3123], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 42, 23, 39], device='cuda:0') tensor([46, 42, 23, 39], device='cuda:0')
+Image 3604480; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 150.7; Lr=0.00238
+Predict and target: tensor([-23.4852, -15.4495, -25.1259, -18.2903], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 32, 19, 13], device='cuda:0') tensor([18, 32, 19, 13], device='cuda:0')
+Image 3620864; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 151.7; Lr=0.00238
+Predict and target: tensor([-17.2634, -14.2814,   0.0000, -22.3007], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21, 58,  0,  8], device='cuda:0') tensor([21, 32,  0,  8], device='cuda:0')
+Image 3637248; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 150.6; Lr=0.00238
+Predict and target: tensor([-22.3333, -23.4370,   0.0000, -23.7397], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 10,  0, 44], device='cuda:0') tensor([48, 10,  0, 44], device='cuda:0')
+Image 3653632; losses: 0.017; [Abs,mean]acc: [0.974, 0.993]; Time Cost: 149.4; Lr=0.00238
+Predict and target: tensor([-25.3161, -25.1126, -18.0638, -25.7006], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26, 46, 58, 36], device='cuda:0') tensor([26, 46, 58, 36], device='cuda:0')
+Image 3670016; losses: 0.017; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 149.4; Lr=0.00238
+Predict and target: tensor([-20.4898, -19.1996, -21.1376, -25.1938], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 49, 55, 11], device='cuda:0') tensor([ 3, 49, 55, 11], device='cuda:0')
+Image 3686400; losses: 0.016; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 147.1; Lr=0.00238
+Predict and target: tensor([-11.7793, -25.0695, -21.2002, -25.9239], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 54, 56, 45], device='cuda:0') tensor([25, 54, 56, 45], device='cuda:0')
+Image 3702784; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 151.1; Lr=0.00238
+Predict and target: tensor([-22.7812, -22.0070, -23.8733, -25.8360], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([43, 45, 50, 20], device='cuda:0') tensor([43, 45, 50, 20], device='cuda:0')
+Image 3719168; losses: 0.016; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 148.8; Lr=0.00226
+Predict and target: tensor([-24.1607, -26.8257, -18.2113, -16.7729], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 10, 56, 14], device='cuda:0') tensor([ 3, 10, 56, 14], device='cuda:0')
+Image 3735552; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.1; Lr=0.00226
+Predict and target: tensor([-30.2899, -26.2737, -23.6760, -20.9851], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 47,  6, 16], device='cuda:0') tensor([54, 47,  6, 16], device='cuda:0')
+Image 3751936; losses: 0.018; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 149.0; Lr=0.00226
+Predict and target: tensor([-20.2048, -25.0205, -21.1155, -13.1732], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([47, 52, 56,  1], device='cuda:0') tensor([47, 52, 56,  1], device='cuda:0')
+Image 3768320; losses: 0.017; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 150.2; Lr=0.00226
+Predict and target: tensor([-23.4286, -18.9918, -22.0676, -26.0477], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3,  8, 28, 17], device='cuda:0') tensor([ 3,  8, 28, 17], device='cuda:0')
+Image 3784704; losses: 0.018; [Abs,mean]acc: [0.970, 0.992]; Time Cost: 151.8; Lr=0.00226
+Predict and target: tensor([-19.6319, -19.2607, -27.2477, -19.6619], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62, 56, 20, 29], device='cuda:0') tensor([62, 56, 20, 29], device='cuda:0')
+Image 3801088; losses: 0.018; [Abs,mean]acc: [0.974, 0.993]; Time Cost: 147.3; Lr=0.00226
+Predict and target: tensor([-19.2415, -23.7486, -28.0141, -29.2596], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8,  7, 37, 52], device='cuda:0') tensor([ 8,  7, 37, 52], device='cuda:0')
+Image 3817472; losses: 0.017; [Abs,mean]acc: [0.974, 0.993]; Time Cost: 149.4; Lr=0.00226
+Predict and target: tensor([-22.6676, -19.4158, -14.4029, -22.1229], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 56, 28, 27], device='cuda:0') tensor([38, 56, 28, 27], device='cuda:0')
+Image 3833856; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 147.6; Lr=0.00226
+Predict and target: tensor([-19.4655, -22.9520, -19.8101, -20.6297], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 36, 29, 37], device='cuda:0') tensor([39, 36, 29, 37], device='cuda:0')
+Image 3850240; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 150.3; Lr=0.00215
+Predict and target: tensor([-24.2651, -23.4238, -23.7262, -30.0084], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 41, 56, 27], device='cuda:0') tensor([ 8, 41, 56, 27], device='cuda:0')
+Image 3866624; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 148.7; Lr=0.00215
+Predict and target: tensor([-18.0907, -22.0123, -18.0062, -23.2609], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60, 57, 28, 15], device='cuda:0') tensor([60, 57, 28, 15], device='cuda:0')
+Image 3883008; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 151.4; Lr=0.00215
+Predict and target: tensor([-19.2272, -19.8642, -22.8519, -27.7708], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([41, 23, 49, 52], device='cuda:0') tensor([41, 23, 49, 52], device='cuda:0')
+Image 3899392; losses: 0.016; [Abs,mean]acc: [0.974, 0.993]; Time Cost: 150.6; Lr=0.00215
+Predict and target: tensor([-23.5714, -26.3910, -29.8615, -25.5319], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([27, 40, 20, 43], device='cuda:0') tensor([27, 40, 20, 43], device='cuda:0')
+Image 3915776; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 149.9; Lr=0.00215
+Predict and target: tensor([-22.1769, -23.0624, -21.2365, -23.6641], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([36, 53,  5, 52], device='cuda:0') tensor([36, 53,  5, 52], device='cuda:0')
+Image 3932160; losses: 0.018; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 148.8; Lr=0.00215
+Predict and target: tensor([-21.8587, -24.5921, -25.8086, -17.4265], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 18, 23, 40], device='cuda:0') tensor([38, 18, 23, 40], device='cuda:0')
+Image 3948544; losses: 0.016; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 148.5; Lr=0.00215
+Predict and target: tensor([-20.1935, -21.6002, -26.4136, -24.8451], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([29, 14, 59, 30], device='cuda:0') tensor([29, 14, 59, 30], device='cuda:0')
+Image 3964928; losses: 0.017; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 150.9; Lr=0.00215
+Predict and target: tensor([-15.8455, -19.5088, -16.4870, -19.5759], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 22, 29, 51], device='cuda:0') tensor([13, 22, 29, 51], device='cuda:0')
+Image 3981312; losses: 0.017; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 149.6; Lr=0.00204
+Predict and target: tensor([-24.3838, -25.4817, -18.2613, -24.1190], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([56, 38, 51,  2], device='cuda:0') tensor([56, 38, 51,  2], device='cuda:0')
+Image 3997696; losses: 0.016; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 150.9; Lr=0.00204
+Predict and target: tensor([-26.1963, -23.5748, -16.5518, -26.7015], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22, 20, 60, 47], device='cuda:0') tensor([22, 20, 60, 47], device='cuda:0')
+Image 4014080; losses: 0.016; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 147.6; Lr=0.00204
+Predict and target: tensor([-28.5150, -17.9745, -17.3297, -23.8226], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([47, 41, 39, 61], device='cuda:0') tensor([47, 41, 39, 61], device='cuda:0')
+Image 4030464; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 150.9; Lr=0.00204
+Predict and target: tensor([-28.2542, -27.8507, -24.8806, -23.4806], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26,  6, 56, 57], device='cuda:0') tensor([26,  6, 56, 57], device='cuda:0')
+Image 4046848; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 150.1; Lr=0.00204
+Predict and target: tensor([-28.2037, -24.6157, -19.7031, -21.1016], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 7, 53, 34, 31], device='cuda:0') tensor([ 7, 53, 34, 31], device='cuda:0')
+Image 4063232; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.4; Lr=0.00204
+Predict and target: tensor([-24.5495, -21.9276, -20.1356, -28.1457], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 4,  5, 24, 10], device='cuda:0') tensor([ 4,  5, 24, 10], device='cuda:0')
+Image 4079616; losses: 0.017; [Abs,mean]acc: [0.973, 0.993]; Time Cost: 150.1; Lr=0.00204
+Predict and target: tensor([-24.7985, -21.3746, -24.0886, -29.5286], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 57, 41, 35], device='cuda:0') tensor([40, 57, 41, 35], device='cuda:0')
+Image 4096000; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.2; Lr=0.00194
+Predict and target: tensor([-20.4959, -24.6105, -23.0605, -20.6127], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 47, 12, 16], device='cuda:0') tensor([31, 47, 12, 16], device='cuda:0')
+Image 4112384; losses: 0.017; [Abs,mean]acc: [0.972, 0.993]; Time Cost: 150.6; Lr=0.00194
+Predict and target: tensor([-1.9896e+01, -1.8744e+01, -5.7220e-06, -1.6470e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 20,  0, 42], device='cuda:0') tensor([ 3, 20,  0, 42], device='cuda:0')
+Image 4128768; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 151.4; Lr=0.00194
+Predict and target: tensor([-18.7062, -22.2405, -19.9023, -22.6983], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 10, 62, 50], device='cuda:0') tensor([25, 10, 62, 50], device='cuda:0')
+Image 4145152; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 149.9; Lr=0.00194
+Predict and target: tensor([-26.0311, -26.3144, -23.7483, -32.6092], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 17, 11, 54], device='cuda:0') tensor([46, 17, 11, 54], device='cuda:0')
+Image 4161536; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.6; Lr=0.00194
+Predict and target: tensor([-24.9366, -23.3022, -25.0017, -22.2098], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([33, 18,  4, 50], device='cuda:0') tensor([33, 18,  4, 50], device='cuda:0')
+Image 4177920; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 150.4; Lr=0.00194
+Predict and target: tensor([-24.3136, -25.4161, -18.5378, -21.5998], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 27,  1, 47], device='cuda:0') tensor([52, 27,  1, 47], device='cuda:0')
+Image 4194304; losses: 0.016; [Abs,mean]acc: [0.974, 0.993]; Time Cost: 150.0; Lr=0.00194
+Predict and target: tensor([-24.4045, -16.7946, -22.1996, -26.9192], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 45, 46, 35], device='cuda:0') tensor([48, 45, 46, 35], device='cuda:0')
+Image 4210688; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.3; Lr=0.00194
+Predict and target: tensor([-28.2307, -21.4975, -20.5808, -18.1173], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16,  6,  3, 25], device='cuda:0') tensor([16,  6,  3, 25], device='cuda:0')
+Image 4227072; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.8; Lr=0.00184
+Predict and target: tensor([-16.5009, -17.7199, -16.2299, -17.0564], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([58,  8, 51, 34], device='cuda:0') tensor([58,  8, 51, 34], device='cuda:0')
+Image 4243456; losses: 0.016; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.0; Lr=0.00184
+Predict and target: tensor([-15.7371, -27.7160, -24.1234, -19.0838], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 54, 49, 50], device='cuda:0') tensor([39, 54, 49, 50], device='cuda:0')
+Image 4259840; losses: 0.016; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 149.9; Lr=0.00184
+Predict and target: tensor([-21.3753, -22.5499, -26.6425, -21.9732], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([27, 48, 14, 38], device='cuda:0') tensor([27, 48, 14, 38], device='cuda:0')
+Image 4276224; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 148.9; Lr=0.00184
+Predict and target: tensor([-24.4195, -24.1613, -25.1962, -27.9806], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([50,  9, 45, 35], device='cuda:0') tensor([50,  9, 45, 35], device='cuda:0')
+Image 4292608; losses: 0.016; [Abs,mean]acc: [0.974, 0.993]; Time Cost: 148.3; Lr=0.00184
+Predict and target: tensor([-22.9793, -21.6677, -26.2542, -30.9104], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 38, 45, 50], device='cuda:0') tensor([ 3, 38, 45, 50], device='cuda:0')
+Image 4308992; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 147.0; Lr=0.00184
+Predict and target: tensor([-26.0609, -22.0243, -21.7782, -24.5611], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 41, 29, 59], device='cuda:0') tensor([ 3, 41, 29, 59], device='cuda:0')
+Image 4325376; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 147.7; Lr=0.00184
+Predict and target: tensor([-25.3660, -22.1723, -18.4712, -20.1166], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 7, 15, 51, 62], device='cuda:0') tensor([ 7, 15, 51, 62], device='cuda:0')
+Image 4341760; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 149.5; Lr=0.00184
+Predict and target: tensor([-19.0574, -27.7707, -21.1396, -21.0202], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60,  6, 15, 13], device='cuda:0') tensor([60,  6, 15, 13], device='cuda:0')
+Image 4358144; losses: 0.016; [Abs,mean]acc: [0.974, 0.994]; Time Cost: 148.9; Lr=0.00175
+Predict and target: tensor([-28.3171, -20.3031, -27.1532, -24.6720], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([11, 31, 12, 21], device='cuda:0') tensor([11, 31, 12, 21], device='cuda:0')
+Image 4374528; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.1; Lr=0.00175
+Predict and target: tensor([-18.8809, -19.7838, -20.0205, -22.0382], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([45, 37, 30, 40], device='cuda:0') tensor([45, 37, 30, 40], device='cuda:0')
+Image 4390912; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 152.7; Lr=0.00175
+Predict and target: tensor([-23.0916, -22.4068, -20.2201, -18.5190], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([11, 23, 32, 52], device='cuda:0') tensor([11, 23, 32, 52], device='cuda:0')
+Image 4407296; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 150.6; Lr=0.00175
+Predict and target: tensor([-25.9038, -21.4760, -24.2137, -20.2855], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([59, 16, 36, 38], device='cuda:0') tensor([59, 16, 36, 38], device='cuda:0')
+Image 4423680; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.5; Lr=0.00175
+Predict and target: tensor([-24.1410, -21.1350, -15.1152, -22.7755], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([43, 12, 34, 49], device='cuda:0') tensor([43, 12, 34, 49], device='cuda:0')
+Image 4440064; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 149.4; Lr=0.00175
+Predict and target: tensor([-1.9703e+01, -1.9073e-06, -2.7843e+01, -1.9225e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([29,  0, 26, 34], device='cuda:0') tensor([29,  0, 26, 34], device='cuda:0')
+Image 4456448; losses: 0.016; [Abs,mean]acc: [0.975, 0.994]; Time Cost: 151.1; Lr=0.00175
+Predict and target: tensor([-18.8858, -28.7872,   0.0000, -21.7354], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([55, 33,  0, 31], device='cuda:0') tensor([55, 33,  0, 31], device='cuda:0')
+Image 4472832; losses: 0.015; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 152.9; Lr=0.00175
+Predict and target: tensor([-20.3375, -18.6493, -22.0943, -27.0942], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 31,  8, 48], device='cuda:0') tensor([38, 31,  8, 48], device='cuda:0')
+Image 4489216; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 149.6; Lr=0.00166
+Predict and target: tensor([-2.4873e+01, -2.5299e+01, -2.6312e+01, -1.9073e-06], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 16, 30,  0], device='cuda:0') tensor([18, 16, 30,  0], device='cuda:0')
+Image 4505600; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 151.0; Lr=0.00166
+Predict and target: tensor([-23.2240, -12.7035, -21.6642, -20.9011], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16, 32, 21, 41], device='cuda:0') tensor([16, 58, 21, 41], device='cuda:0')
+Image 4521984; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.5; Lr=0.00166
+Predict and target: tensor([-20.2900, -28.8619, -30.9761, -22.2266], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16, 17, 54,  4], device='cuda:0') tensor([16, 17, 54,  4], device='cuda:0')
+Image 4538368; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 151.2; Lr=0.00166
+Predict and target: tensor([-29.9287, -29.0005, -26.3224, -16.7740], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([45, 17,  4, 31], device='cuda:0') tensor([45, 17,  4, 31], device='cuda:0')
+Image 4554752; losses: 0.014; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 151.3; Lr=0.00166
+Predict and target: tensor([-19.0926, -22.6428, -19.0473, -22.6546], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60, 18, 28,  2], device='cuda:0') tensor([60, 18, 28,  2], device='cuda:0')
+Image 4571136; losses: 0.015; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 149.7; Lr=0.00166
+Predict and target: tensor([-22.0375, -22.9142, -20.6266, -23.6110], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 48, 34, 11], device='cuda:0') tensor([40, 48, 34, 11], device='cuda:0')
+Image 4587520; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 149.9; Lr=0.00166
+Predict and target: tensor([-30.0558, -21.1429, -19.7030, -21.3322], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([47,  4, 18, 62], device='cuda:0') tensor([47,  4, 18, 62], device='cuda:0')
+Image 4603904; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 149.5; Lr=0.00166
+Predict and target: tensor([-29.4044, -26.3195, -18.4072, -26.1661], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 55,  1, 61], device='cuda:0') tensor([54, 55,  1, 61], device='cuda:0')
+Image 4620288; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.9; Lr=0.00158
+Predict and target: tensor([-19.8449, -25.3347, -18.4999, -19.9628], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 1, 22, 24, 39], device='cuda:0') tensor([ 1, 22, 24, 39], device='cuda:0')
+Image 4636672; losses: 0.015; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 148.8; Lr=0.00158
+Predict and target: tensor([-19.4124, -21.0720, -21.2928, -26.6439], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([53, 45, 20, 24], device='cuda:0') tensor([53, 45, 20, 24], device='cuda:0')
+Image 4653056; losses: 0.014; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 149.9; Lr=0.00158
+Predict and target: tensor([-20.5465, -26.0298, -25.2067, -26.3003], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 37, 47,  4], device='cuda:0') tensor([38, 37, 47,  4], device='cuda:0')
+Image 4669440; losses: 0.014; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 151.6; Lr=0.00158
+Predict and target: tensor([-26.7349, -23.9979, -24.2120, -19.5689], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 21, 15, 16], device='cuda:0') tensor([10, 21, 15, 16], device='cuda:0')
+Image 4685824; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.8; Lr=0.00158
+Predict and target: tensor([-21.6637, -20.3235, -34.3084, -20.5652], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 49, 17,  2], device='cuda:0') tensor([25, 49, 17,  2], device='cuda:0')
+Image 4702208; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.2; Lr=0.00158
+Predict and target: tensor([-14.8904, -27.5176, -18.9643, -22.0276], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([58, 46, 22, 53], device='cuda:0') tensor([58, 46, 22, 53], device='cuda:0')
+Image 4718592; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.0; Lr=0.00158
+Predict and target: tensor([-22.2562, -22.1119, -21.6823, -26.7157], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57, 13, 55, 56], device='cuda:0') tensor([57, 13, 55, 56], device='cuda:0')
+Image 4734976; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.5; Lr=0.00158
+Predict and target: tensor([-25.7884, -17.5840, -32.6475, -23.9488], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 9,  1, 44,  3], device='cuda:0') tensor([ 9,  1, 44,  3], device='cuda:0')
+Image 4751360; losses: 0.014; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 149.5; Lr=0.00150
+Predict and target: tensor([-5.0545e-05, -2.0359e+01, -1.8095e+01, -2.2865e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 0,  3, 33, 49], device='cuda:0') tensor([ 0,  3, 33, 49], device='cuda:0')
+Image 4767744; losses: 0.014; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 148.5; Lr=0.00150
+Predict and target: tensor([-22.2975, -29.3951, -21.2347, -23.5522], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([41,  9, 32, 23], device='cuda:0') tensor([41,  9, 32, 23], device='cuda:0')
+Image 4784128; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 148.5; Lr=0.00150
+Predict and target: tensor([-29.1172, -15.0177, -17.5667, -20.6080], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 51, 16, 11], device='cuda:0') tensor([10, 51, 16, 11], device='cuda:0')
+Image 4800512; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.2; Lr=0.00150
+Predict and target: tensor([-24.9874, -18.7922, -22.7983, -25.2348], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 37, 36, 16], device='cuda:0') tensor([ 8, 37, 36, 16], device='cuda:0')
+Image 4816896; losses: 0.014; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 149.7; Lr=0.00150
+Predict and target: tensor([-27.2189, -22.2850, -23.2344, -20.2408], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([35, 53, 27, 55], device='cuda:0') tensor([35, 53, 27, 55], device='cuda:0')
+Image 4833280; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.4; Lr=0.00150
+Predict and target: tensor([-20.7721, -29.7497, -13.9950, -22.5621], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([11, 61,  1, 13], device='cuda:0') tensor([11, 61,  1, 13], device='cuda:0')
+Image 4849664; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 149.0; Lr=0.00150
+Predict and target: tensor([-20.5367, -22.9645, -32.4566, -16.2017], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 5,  4, 26, 32], device='cuda:0') tensor([ 5,  4, 26, 32], device='cuda:0')
+Image 4866048; losses: 0.016; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 150.0; Lr=0.00142
+Predict and target: tensor([-22.2764, -22.6498,   0.0000, -29.5716], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([24,  3,  0, 20], device='cuda:0') tensor([24,  3,  0, 20], device='cuda:0')
+Image 4882432; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.9; Lr=0.00142
+Predict and target: tensor([-17.5767, -22.9735, -23.1888, -23.8557], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 6, 23, 49, 53], device='cuda:0') tensor([ 6, 23, 49, 53], device='cuda:0')
+Image 4898816; losses: 0.014; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 151.0; Lr=0.00142
+Predict and target: tensor([-15.9033,   0.0000, -29.9503, -24.8275], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 1,  0, 54,  3], device='cuda:0') tensor([ 1,  0, 54,  3], device='cuda:0')
+Image 4915200; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 148.4; Lr=0.00142
+Predict and target: tensor([-26.1272, -27.3358, -30.1714, -17.3337], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 54, 26, 58], device='cuda:0') tensor([40, 54, 26, 58], device='cuda:0')
+Image 4931584; losses: 0.014; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.7; Lr=0.00142
+Predict and target: tensor([-27.0331, -25.2487, -21.1229, -22.7084], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([43, 46, 47, 14], device='cuda:0') tensor([43, 46, 47, 14], device='cuda:0')
+Image 4947968; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.0; Lr=0.00142
+Predict and target: tensor([-23.8010, -13.8473, -21.0379, -15.6881], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 5, 32, 22,  1], device='cuda:0') tensor([ 5, 32, 22,  1], device='cuda:0')
+Image 4964352; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.6; Lr=0.00142
+Predict and target: tensor([-20.3657, -21.8538, -26.7377, -25.2708], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 53, 49,  4], device='cuda:0') tensor([ 8, 53, 49,  4], device='cuda:0')
+Image 4980736; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 148.1; Lr=0.00142
+Predict and target: tensor([-18.8763, -19.9459, -25.2321, -29.6117], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2,  4,  3, 56], device='cuda:0') tensor([ 2,  4,  3, 56], device='cuda:0')
+Image 4997120; losses: 0.015; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 152.5; Lr=0.00135
+Predict and target: tensor([-26.6833, -21.1845, -30.5328, -23.9840], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 62, 27, 18], device='cuda:0') tensor([ 3, 62, 27, 18], device='cuda:0')
+Image 5013504; losses: 0.014; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.2; Lr=0.00135
+Predict and target: tensor([-28.5551, -24.4105,   0.0000, -23.0265], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 43,  0, 13], device='cuda:0') tensor([52, 43,  0, 13], device='cuda:0')
+Image 5029888; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 151.3; Lr=0.00135
+Predict and target: tensor([-30.7031, -25.8293, -26.2680, -15.4453], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 11, 27,  1], device='cuda:0') tensor([54, 11, 27,  1], device='cuda:0')
+Image 5046272; losses: 0.014; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 149.0; Lr=0.00135
+Predict and target: tensor([-19.8096, -19.4278, -17.1364, -27.3627], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60, 13,  1,  7], device='cuda:0') tensor([60, 13,  1,  7], device='cuda:0')
+Image 5062656; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.2; Lr=0.00135
+Predict and target: tensor([-16.8619, -19.8507, -28.6865, -30.8477], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 48, 27, 23], device='cuda:0') tensor([51, 48, 27, 23], device='cuda:0')
+Image 5079040; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.9; Lr=0.00135
+Predict and target: tensor([-24.0932, -26.1979, -21.2882, -18.6152], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([37, 44, 28, 39], device='cuda:0') tensor([37, 44, 28, 39], device='cuda:0')
+Image 5095424; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 151.1; Lr=0.00135
+Predict and target: tensor([-28.1622, -21.6169, -19.2665, -21.6153], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([59, 30, 62, 13], device='cuda:0') tensor([59, 30, 62, 13], device='cuda:0')
+Image 5111808; losses: 0.014; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 150.7; Lr=0.00135
+Predict and target: tensor([-27.4635, -27.1318, -22.7192, -21.8391], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 9, 23, 43, 48], device='cuda:0') tensor([ 9, 23, 43, 48], device='cuda:0')
+Image 5128192; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 147.4; Lr=0.00129
+Predict and target: tensor([-1.8857e+01, -1.7923e+01, -1.9073e-06, -2.4587e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 36,  0, 12], device='cuda:0') tensor([38, 36,  0, 12], device='cuda:0')
+Image 5144576; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 149.6; Lr=0.00129
+Predict and target: tensor([-19.2033, -27.1631, -21.5172, -23.8073], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62,  3, 17, 15], device='cuda:0') tensor([62,  3, 17, 15], device='cuda:0')
+Image 5160960; losses: 0.014; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.3; Lr=0.00129
+Predict and target: tensor([-26.7900, -26.9089, -28.2463, -27.9265], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([11, 40, 18, 44], device='cuda:0') tensor([11, 40, 18, 44], device='cuda:0')
+Image 5177344; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 148.8; Lr=0.00129
+Predict and target: tensor([-25.9446, -20.7763, -21.6297, -25.7275], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30, 42, 38, 61], device='cuda:0') tensor([30, 42, 38, 61], device='cuda:0')
+Image 5193728; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.1; Lr=0.00129
+Predict and target: tensor([-16.5520, -30.3503, -23.4278, -25.1020], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 59, 53, 37], device='cuda:0') tensor([ 1, 59, 53, 37], device='cuda:0')
+Image 5210112; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 151.8; Lr=0.00129
+Predict and target: tensor([-16.4323, -21.3572, -22.3158, -29.6613], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22, 16, 10,  9], device='cuda:0') tensor([45, 16, 10,  9], device='cuda:0')
+Image 5226496; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 149.3; Lr=0.00129
+Predict and target: tensor([-27.5347, -29.2438, -24.7921, -24.9499], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 37,  4, 56], device='cuda:0') tensor([18, 37,  4, 56], device='cuda:0')
+Image 5242880; losses: 0.014; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.8; Lr=0.00129
+Predict and target: tensor([-34.2270, -22.5231, -21.7788, -27.7467], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([44, 57,  1, 45], device='cuda:0') tensor([44, 57,  1, 45], device='cuda:0')
+Image 5259264; losses: 0.014; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 149.4; Lr=0.00122
+Predict and target: tensor([-28.1217, -28.9067, -17.2083, -31.4913], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 11, 60, 59], device='cuda:0') tensor([25, 11, 60, 59], device='cuda:0')
+Image 5275648; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.7; Lr=0.00122
+Predict and target: tensor([-23.6202, -24.0115, -22.5713, -17.8861], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([49, 52, 53, 15], device='cuda:0') tensor([49, 52, 53, 15], device='cuda:0')
+Image 5292032; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 147.5; Lr=0.00122
+Predict and target: tensor([-25.9339, -18.4948, -19.5427, -24.5137], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 57, 19, 23], device='cuda:0') tensor([10, 57, 19, 23], device='cuda:0')
+Image 5308416; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.8; Lr=0.00122
+Predict and target: tensor([-22.4223, -29.4983, -27.1323, -23.9365], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 35, 54, 15], device='cuda:0') tensor([52, 35, 54, 15], device='cuda:0')
+Image 5324800; losses: 0.013; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 148.9; Lr=0.00122
+Predict and target: tensor([-22.4713, -25.3842, -20.0096, -33.1209], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([12, 18, 53,  6], device='cuda:0') tensor([12, 18, 53,  6], device='cuda:0')
+Image 5341184; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 151.0; Lr=0.00122
+Predict and target: tensor([-24.4543, -26.1748, -34.2952, -17.6828], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 30,  7,  5], device='cuda:0') tensor([32, 30,  7,  5], device='cuda:0')
+Image 5357568; losses: 0.014; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 151.3; Lr=0.00122
+Predict and target: tensor([-25.4815, -23.2513, -26.7242, -18.9949], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 16, 30,  8], device='cuda:0') tensor([40, 16, 30,  8], device='cuda:0')
+Image 5373952; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 147.7; Lr=0.00122
+Predict and target: tensor([-20.9266, -23.3089, -20.7118, -23.3900], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42,  5, 52, 54], device='cuda:0') tensor([42,  5, 52, 54], device='cuda:0')
+Image 5390336; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.4; Lr=0.00116
+Predict and target: tensor([-30.0791, -20.7169, -19.9525, -21.0303], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([27, 60, 37, 24], device='cuda:0') tensor([27, 60, 37, 24], device='cuda:0')
+Image 5406720; losses: 0.015; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 150.7; Lr=0.00116
+Predict and target: tensor([-28.3007, -31.0593, -34.0159, -24.2534], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10, 23, 49, 27], device='cuda:0') tensor([10, 23, 49, 27], device='cuda:0')
+Image 5423104; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 148.9; Lr=0.00116
+Predict and target: tensor([-31.1624, -20.0672, -19.6672, -25.4269], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 9, 28, 62, 21], device='cuda:0') tensor([ 9, 28, 62, 21], device='cuda:0')
+Image 5439488; losses: 0.014; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 150.3; Lr=0.00116
+Predict and target: tensor([-16.2733, -27.7046, -21.5865, -30.1340], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 20, 11, 43], device='cuda:0') tensor([ 1, 20, 11, 43], device='cuda:0')
+Image 5455872; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 148.6; Lr=0.00116
+Predict and target: tensor([-18.1063, -27.7580, -31.6772, -21.2746], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([47, 61, 10, 57], device='cuda:0') tensor([47, 61, 10, 57], device='cuda:0')
+Image 5472256; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 148.8; Lr=0.00116
+Predict and target: tensor([-22.5763, -21.9565, -19.3806, -23.1569], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([34, 60, 13, 41], device='cuda:0') tensor([34, 60, 13, 41], device='cuda:0')
+Image 5488640; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 148.1; Lr=0.00116
+Predict and target: tensor([-25.6565, -31.6408, -26.0765, -26.2452], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 27, 36, 52], device='cuda:0') tensor([ 8, 27, 36, 52], device='cuda:0')
+Image 5505024; losses: 0.013; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 149.0; Lr=0.00110
+Predict and target: tensor([-22.9999, -23.0922, -27.8365, -18.7858], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 53, 27, 32], device='cuda:0') tensor([18, 53, 27, 32], device='cuda:0')
+Image 5521408; losses: 0.014; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 147.7; Lr=0.00110
+Predict and target: tensor([-19.0372, -21.7812, -19.5453, -20.5815], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 22, 20, 29], device='cuda:0') tensor([ 8, 22, 20, 29], device='cuda:0')
+Image 5537792; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.2; Lr=0.00110
+Predict and target: tensor([-14.6879, -19.2572, -23.1047, -17.3246], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 39, 34, 22], device='cuda:0') tensor([ 2, 39, 34, 22], device='cuda:0')
+Image 5554176; losses: 0.014; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 148.7; Lr=0.00110
+Predict and target: tensor([-20.6660, -18.9798, -25.2104, -18.4970], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([19, 21, 26, 50], device='cuda:0') tensor([19, 21, 26, 50], device='cuda:0')
+Image 5570560; losses: 0.016; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.8; Lr=0.00110
+Predict and target: tensor([-19.9046, -25.5560, -18.0536, -31.6356], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([60, 50, 36, 15], device='cuda:0') tensor([60, 50, 36, 15], device='cuda:0')
+Image 5586944; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.5; Lr=0.00110
+Predict and target: tensor([-1.5575e+01, -2.2846e+01, -9.5367e-06, -2.0957e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 54,  0, 33], device='cuda:0') tensor([ 2, 54,  0, 33], device='cuda:0')
+Image 5603328; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 147.6; Lr=0.00110
+Predict and target: tensor([-22.2327, -24.9707, -28.8683, -27.3121], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 12, 27, 36], device='cuda:0') tensor([ 8, 12, 27, 36], device='cuda:0')
+Image 5619712; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 148.7; Lr=0.00110
+Predict and target: tensor([-19.9026, -28.4921, -25.0746, -22.3620], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62, 23, 30, 15], device='cuda:0') tensor([62, 23, 30, 15], device='cuda:0')
+Image 5636096; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 152.3; Lr=0.00105
+Predict and target: tensor([-17.2268, -19.4214, -19.4242, -19.1418], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57, 38, 36, 60], device='cuda:0') tensor([57, 38, 36, 60], device='cuda:0')
+Image 5652480; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 150.1; Lr=0.00105
+Predict and target: tensor([-21.3042, -22.8596, -19.7619, -23.0525], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([15, 52, 31,  2], device='cuda:0') tensor([15, 52, 31,  2], device='cuda:0')
+Image 5668864; losses: 0.015; [Abs,mean]acc: [0.977, 0.994]; Time Cost: 149.4; Lr=0.00105
+Predict and target: tensor([-22.2311, -23.2775, -27.2297, -25.4264], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([34, 38, 16, 44], device='cuda:0') tensor([34, 38, 16, 44], device='cuda:0')
+Image 5685248; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 151.0; Lr=0.00105
+Predict and target: tensor([-21.6447, -24.9377, -14.0422, -19.9048], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 54, 51, 13], device='cuda:0') tensor([40, 54, 51, 13], device='cuda:0')
+Image 5701632; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.3; Lr=0.00105
+Predict and target: tensor([-18.9446, -20.7426, -21.0903, -21.4899], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 29, 62, 38], device='cuda:0') tensor([13, 29, 62, 38], device='cuda:0')
+Image 5718016; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.1; Lr=0.00105
+Predict and target: tensor([-20.8115, -14.9156, -25.8118, -23.0445], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57, 34,  3, 45], device='cuda:0') tensor([57, 34,  3, 45], device='cuda:0')
+Image 5734400; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.9; Lr=0.00105
+Predict and target: tensor([-33.8685, -22.6903, -23.5358, -28.0520], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([44,  8, 52, 43], device='cuda:0') tensor([44,  8, 52, 43], device='cuda:0')
+Image 5750784; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 148.4; Lr=0.00105
+Predict and target: tensor([-22.1013, -25.4446, -17.0605, -27.3538], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 12, 51, 54], device='cuda:0') tensor([ 8, 12, 51, 54], device='cuda:0')
+Image 5767168; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.9; Lr=0.00099
+Predict and target: tensor([-19.9761, -21.7759, -19.6486, -23.6433], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30, 56,  2,  3], device='cuda:0') tensor([30, 56,  2,  3], device='cuda:0')
+Image 5783552; losses: 0.014; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 151.0; Lr=0.00099
+Predict and target: tensor([-20.8810, -25.5150, -29.3477, -36.2991], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([17, 27,  3, 59], device='cuda:0') tensor([17, 27,  3, 59], device='cuda:0')
+Image 5799936; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 151.0; Lr=0.00099
+Predict and target: tensor([-26.4549, -28.3809, -22.1033, -21.5090], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 61, 62, 34], device='cuda:0') tensor([46, 61, 62, 34], device='cuda:0')
+Image 5816320; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 148.9; Lr=0.00099
+Predict and target: tensor([-31.7241, -21.5313, -24.5631, -25.9537], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 61, 46, 15], device='cuda:0') tensor([54, 61, 46, 15], device='cuda:0')
+Image 5832704; losses: 0.015; [Abs,mean]acc: [0.976, 0.994]; Time Cost: 150.6; Lr=0.00099
+Predict and target: tensor([-23.2350, -23.8589, -24.5606, -21.4555], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([41, 37, 47, 24], device='cuda:0') tensor([41, 37, 47, 24], device='cuda:0')
+Image 5849088; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 151.0; Lr=0.00099
+Predict and target: tensor([-23.1890, -24.8635, -21.0862, -25.6641], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([24,  3, 29, 12], device='cuda:0') tensor([24,  3, 29, 12], device='cuda:0')
+Image 5865472; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 151.1; Lr=0.00099
+Predict and target: tensor([-21.8156, -25.4197, -29.2217, -28.3911], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 1,  8, 20, 21], device='cuda:0') tensor([ 1,  8, 20, 21], device='cuda:0')
+Image 5881856; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.6; Lr=0.00099
+Predict and target: tensor([-28.8768, -19.2139, -21.0985, -23.7687], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([20, 14, 52, 42], device='cuda:0') tensor([20, 14, 52, 42], device='cuda:0')
+Image 5898240; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.2; Lr=0.00094
+Predict and target: tensor([-22.9327, -13.9837, -21.3830, -22.5090], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 60, 48, 36], device='cuda:0') tensor([25, 60, 48, 36], device='cuda:0')
+Image 5914624; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 148.5; Lr=0.00094
+Predict and target: tensor([-19.8929, -20.9980, -15.5134, -21.4201], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 30, 21, 42], device='cuda:0') tensor([52, 30, 21, 42], device='cuda:0')
+Image 5931008; losses: 0.014; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 151.6; Lr=0.00094
+Predict and target: tensor([-13.4493, -24.4520, -16.8829, -29.0869], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51,  3, 60, 18], device='cuda:0') tensor([51,  3, 60, 18], device='cuda:0')
+Image 5947392; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 150.7; Lr=0.00094
+Predict and target: tensor([-20.0378, -15.1766, -30.7568, -24.2509], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([62, 57, 44,  4], device='cuda:0') tensor([62, 57, 44,  4], device='cuda:0')
+Image 5963776; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 151.1; Lr=0.00094
+Predict and target: tensor([-19.0588, -33.3146, -24.8511, -29.4326], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 35, 52,  6], device='cuda:0') tensor([39, 35, 52,  6], device='cuda:0')
+Image 5980160; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.7; Lr=0.00094
+Predict and target: tensor([-26.4081, -23.2404, -30.0153, -25.3121], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 30, 44, 16], device='cuda:0') tensor([40, 30, 44, 16], device='cuda:0')
+Image 5996544; losses: 0.014; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 147.8; Lr=0.00094
+Predict and target: tensor([-23.3587, -22.9974, -19.7966, -20.4552], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16, 53,  4, 29], device='cuda:0') tensor([16, 53,  4, 29], device='cuda:0')
+Image 6012928; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.4; Lr=0.00094
+Predict and target: tensor([-21.6193, -25.3645, -25.6781, -24.1029], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 7, 18, 14, 27], device='cuda:0') tensor([ 7, 18, 14, 27], device='cuda:0')
+Image 6029312; losses: 0.013; [Abs,mean]acc: [0.978, 0.994]; Time Cost: 149.1; Lr=0.00090
+Predict and target: tensor([-17.2540, -20.2882, -24.1729, -26.2343], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([32, 52, 38, 53], device='cuda:0') tensor([32, 52, 38, 53], device='cuda:0')
+Image 6045696; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.8; Lr=0.00090
+Predict and target: tensor([-32.7757, -23.3677, -26.8836, -19.7947], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([61,  5, 23, 34], device='cuda:0') tensor([61,  5, 23, 34], device='cuda:0')
+Image 6062080; losses: 0.012; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.1; Lr=0.00090
+Predict and target: tensor([-16.6561, -23.2570, -26.0429, -18.6575], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 18, 54, 29], device='cuda:0') tensor([51, 18, 54, 29], device='cuda:0')
+Image 6078464; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.0; Lr=0.00090
+Predict and target: tensor([-18.4309, -21.4665, -24.3526, -23.1254], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 22,  9, 46], device='cuda:0') tensor([13, 22,  9, 46], device='cuda:0')
+Image 6094848; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.3; Lr=0.00090
+Predict and target: tensor([-22.2467, -21.9012, -28.8110, -23.0458], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48, 10,  3, 38], device='cuda:0') tensor([48, 10,  3, 38], device='cuda:0')
+Image 6111232; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 147.8; Lr=0.00090
+Predict and target: tensor([-20.6580, -23.6996, -20.3916, -17.3365], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([47, 18, 25, 48], device='cuda:0') tensor([47, 18, 25, 48], device='cuda:0')
+Image 6127616; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 150.2; Lr=0.00090
+Predict and target: tensor([-24.1618, -22.4266, -31.4342, -30.9616], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 10, 59, 43], device='cuda:0') tensor([ 3, 10, 59, 43], device='cuda:0')
+Image 6144000; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.6; Lr=0.00085
+Predict and target: tensor([-21.4938, -17.5793, -20.7663, -26.9284], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([24,  7,  5, 17], device='cuda:0') tensor([24,  7,  5, 17], device='cuda:0')
+Image 6160384; losses: 0.012; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 151.9; Lr=0.00085
+Predict and target: tensor([-21.5008, -22.1036, -24.6671, -15.4583], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([37, 13, 43, 42], device='cuda:0') tensor([37, 13, 43, 42], device='cuda:0')
+Image 6176768; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.6; Lr=0.00085
+Predict and target: tensor([-23.6782, -21.5447, -23.2691, -25.6010], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 14, 21, 33], device='cuda:0') tensor([42, 14, 21, 33], device='cuda:0')
+Image 6193152; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.9; Lr=0.00085
+Predict and target: tensor([-23.6879, -16.9983, -25.7617, -15.7705], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([57, 51, 49, 58], device='cuda:0') tensor([57, 51, 49, 58], device='cuda:0')
+Image 6209536; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 147.4; Lr=0.00085
+Predict and target: tensor([-21.9044, -22.5173, -29.4537, -27.9069], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([50, 22, 44, 47], device='cuda:0') tensor([50, 22, 44, 47], device='cuda:0')
+Image 6225920; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.0; Lr=0.00085
+Predict and target: tensor([-23.2646, -27.8285, -20.5786, -23.9085], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 33,  4, 48], device='cuda:0') tensor([46, 33,  4, 48], device='cuda:0')
+Image 6242304; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.0; Lr=0.00085
+Predict and target: tensor([-24.8544, -24.5276, -22.7349, -28.6135], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([52, 22, 45, 47], device='cuda:0') tensor([52, 22, 45, 47], device='cuda:0')
+Image 6258688; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.6; Lr=0.00085
+Predict and target: tensor([-29.4116, -19.9085, -19.8104, -25.5914], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 57, 32, 27], device='cuda:0') tensor([18, 57, 32, 27], device='cuda:0')
+Image 6275072; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 150.2; Lr=0.00081
+Predict and target: tensor([-26.3864, -20.9578, -27.6554, -20.7972], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([54, 49, 44, 22], device='cuda:0') tensor([54, 49, 44, 22], device='cuda:0')
+Image 6291456; losses: 0.012; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 148.4; Lr=0.00081
+Predict and target: tensor([-29.6830, -22.8770, -22.2201, -20.7693], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([19, 11, 15, 57], device='cuda:0') tensor([19, 11, 15, 57], device='cuda:0')
+Image 6307840; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 147.8; Lr=0.00081
+Predict and target: tensor([-27.1089, -23.6029, -28.4758, -24.0038], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([19, 40, 35, 21], device='cuda:0') tensor([19, 40, 35, 21], device='cuda:0')
+Image 6324224; losses: 0.014; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 150.1; Lr=0.00081
+Predict and target: tensor([-19.6021, -19.1638, -15.2803, -21.2643], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 8, 13,  1, 39], device='cuda:0') tensor([ 8, 13, 51, 39], device='cuda:0')
+Image 6340608; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 149.2; Lr=0.00081
+Predict and target: tensor([-22.4897, -23.6926, -26.7045, -28.8572], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([46, 45, 18, 30], device='cuda:0') tensor([46, 45, 18, 30], device='cuda:0')
+Image 6356992; losses: 0.013; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 150.3; Lr=0.00081
+Predict and target: tensor([-23.4681, -22.6744, -24.9525, -21.8349], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 38, 10, 49], device='cuda:0') tensor([13, 38, 10, 49], device='cuda:0')
+Image 6373376; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 148.1; Lr=0.00081
+Predict and target: tensor([-29.0905, -18.8242, -30.1759, -31.5113], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([30, 14, 26, 12], device='cuda:0') tensor([30, 14, 26, 12], device='cuda:0')
+Image 6389760; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 150.7; Lr=0.00081
+Predict and target: tensor([-19.9078, -23.6924, -16.4670, -26.2322], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 23,  1,  6], device='cuda:0') tensor([39, 23,  1,  6], device='cuda:0')
+Image 6406144; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 147.6; Lr=0.00077
+Predict and target: tensor([-21.1691, -24.8482, -23.4620, -28.4595], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([18, 46, 27, 10], device='cuda:0') tensor([18, 46, 27, 10], device='cuda:0')
+Image 6422528; losses: 0.014; [Abs,mean]acc: [0.978, 0.995]; Time Cost: 148.6; Lr=0.00077
+Predict and target: tensor([-24.6850, -22.0725, -24.8047, -22.8300], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 49, 10, 19], device='cuda:0') tensor([31, 49, 10, 19], device='cuda:0')
+Image 6438912; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.9; Lr=0.00077
+Predict and target: tensor([-20.5191, -26.4220, -20.5758, -25.6723], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([14, 22, 39, 56], device='cuda:0') tensor([14, 22, 39, 56], device='cuda:0')
+Image 6455296; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.7; Lr=0.00077
+Predict and target: tensor([-31.1749, -20.5214, -18.5071, -26.8874], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([61,  5, 62,  9], device='cuda:0') tensor([61,  5, 62,  9], device='cuda:0')
+Image 6471680; losses: 0.012; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.4; Lr=0.00077
+Predict and target: tensor([-18.7389, -21.9565, -26.6645, -21.5662], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([58, 11, 59, 13], device='cuda:0') tensor([58, 11, 59, 13], device='cuda:0')
+Image 6488064; losses: 0.011; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 150.2; Lr=0.00077
+Predict and target: tensor([-34.0803, -19.0063, -24.7296, -22.9535], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([61, 51, 25, 62], device='cuda:0') tensor([61, 51, 25, 62], device='cuda:0')
+Image 6504448; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.4; Lr=0.00077
+Predict and target: tensor([-19.1445, -25.4319, -15.3495, -23.9487], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([12, 11, 25, 20], device='cuda:0') tensor([12, 11, 25, 20], device='cuda:0')
+Image 6520832; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 150.3; Lr=0.00077
+Predict and target: tensor([-24.3934, -24.4989, -20.0573, -17.1500], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([27, 43, 62, 60], device='cuda:0') tensor([27, 43, 62, 60], device='cuda:0')
+Image 6537216; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 148.8; Lr=0.00073
+Predict and target: tensor([-21.1246, -19.0794, -20.2009, -20.1113], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 57, 28, 43], device='cuda:0') tensor([ 2, 57, 28, 43], device='cuda:0')
+Image 6553600; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.4; Lr=0.00073
+Predict and target: tensor([-19.8611, -20.7017, -21.1926, -18.4728], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([49, 31, 34, 60], device='cuda:0') tensor([49, 31, 34, 60], device='cuda:0')
+Image 6569984; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 146.7; Lr=0.00073
+Predict and target: tensor([-27.1646, -21.0816, -19.1647, -20.8932], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([36, 31, 55, 11], device='cuda:0') tensor([36, 31, 55, 11], device='cuda:0')
+Image 6586368; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 150.0; Lr=0.00073
+Predict and target: tensor([-17.9392, -15.7985, -24.9899, -28.4021], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 34, 40, 61], device='cuda:0') tensor([31, 34, 40, 61], device='cuda:0')
+Image 6602752; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 148.0; Lr=0.00073
+Predict and target: tensor([-19.0453, -18.6377, -16.9914, -20.1498], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 38, 60, 62], device='cuda:0') tensor([13, 38, 60, 62], device='cuda:0')
+Image 6619136; losses: 0.012; [Abs,mean]acc: [0.983, 0.996]; Time Cost: 149.6; Lr=0.00073
+Predict and target: tensor([-24.2890, -21.8326, -12.1151, -31.0165], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([33, 31, 58, 59], device='cuda:0') tensor([33, 31, 58, 59], device='cuda:0')
+Image 6635520; losses: 0.014; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.8; Lr=0.00073
+Predict and target: tensor([-25.0989, -24.0302, -25.2065, -23.0976], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([28, 52, 44, 57], device='cuda:0') tensor([28, 52, 44, 57], device='cuda:0')
+Image 6651904; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.0; Lr=0.00073
+Predict and target: tensor([-21.6981, -23.4396, -21.9017, -35.3445], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([33, 48, 42, 59], device='cuda:0') tensor([33, 48, 42, 59], device='cuda:0')
+Image 6668288; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.7; Lr=0.00069
+Predict and target: tensor([  0.0000, -20.5557, -21.4792, -25.7007], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 0, 36, 15,  3], device='cuda:0') tensor([ 0, 36, 15,  3], device='cuda:0')
+Image 6684672; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 151.4; Lr=0.00069
+Predict and target: tensor([-18.8673, -23.5122, -22.9510, -18.9230], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 4, 21, 20, 51], device='cuda:0') tensor([ 4, 21, 20, 51], device='cuda:0')
+Image 6701056; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.9; Lr=0.00069
+Predict and target: tensor([-21.0394, -20.5968, -22.2146, -21.3091], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([45,  7, 26, 52], device='cuda:0') tensor([45,  7, 26, 52], device='cuda:0')
+Image 6717440; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 151.3; Lr=0.00069
+Predict and target: tensor([-25.7616,   0.0000, -19.3608, -27.4453], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([10,  0, 57,  7], device='cuda:0') tensor([10,  0, 57,  7], device='cuda:0')
+Image 6733824; losses: 0.012; [Abs,mean]acc: [0.983, 0.996]; Time Cost: 149.6; Lr=0.00069
+Predict and target: tensor([-32.1041, -22.0348, -22.4859, -23.2402], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([26, 16, 36, 62], device='cuda:0') tensor([26, 16, 36, 62], device='cuda:0')
+Image 6750208; losses: 0.012; [Abs,mean]acc: [0.983, 0.996]; Time Cost: 149.0; Lr=0.00069
+Predict and target: tensor([-24.3600, -18.2463, -25.8224, -22.2334], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 60, 30, 38], device='cuda:0') tensor([25, 60, 30, 38], device='cuda:0')
+Image 6766592; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 150.0; Lr=0.00069
+Predict and target: tensor([-24.5165,   0.0000, -22.0289, -24.8514], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([37,  0, 11,  4], device='cuda:0') tensor([37,  0, 11,  4], device='cuda:0')
+Image 6782976; losses: 0.011; [Abs,mean]acc: [0.984, 0.996]; Time Cost: 152.0; Lr=0.00069
+Predict and target: tensor([-22.0073, -22.1702, -22.6927, -25.5144], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51,  2,  1,  3], device='cuda:0') tensor([51,  2,  1,  3], device='cuda:0')
+Image 6799360; losses: 0.011; [Abs,mean]acc: [0.984, 0.996]; Time Cost: 150.5; Lr=0.00066
+Predict and target: tensor([-19.4732, -23.2566, -20.7489, -23.0628], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([51, 53, 13,  5], device='cuda:0') tensor([51, 53, 13,  5], device='cuda:0')
+Image 6815744; losses: 0.012; [Abs,mean]acc: [0.984, 0.996]; Time Cost: 150.7; Lr=0.00066
+Predict and target: tensor([-21.4549, -21.1309, -23.5540, -15.1356], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([22,  4, 10, 58], device='cuda:0') tensor([22,  4, 10, 32], device='cuda:0')
+Image 6832128; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.4; Lr=0.00066
+Predict and target: tensor([-27.9957, -21.1055, -18.8752, -24.9858], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 7, 15,  2, 48], device='cuda:0') tensor([ 7, 15,  2, 48], device='cuda:0')
+Image 6848512; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 149.9; Lr=0.00066
+Predict and target: tensor([-27.6248, -23.6691, -28.0165, -21.1675], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 6, 19, 40, 25], device='cuda:0') tensor([ 6, 19, 40, 25], device='cuda:0')
+Image 6864896; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 150.2; Lr=0.00066
+Predict and target: tensor([-27.7027, -26.9751, -22.3238, -19.8835], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([48,  9, 36, 13], device='cuda:0') tensor([48,  9, 36, 13], device='cuda:0')
+Image 6881280; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 147.7; Lr=0.00066
+Predict and target: tensor([-19.6838, -34.7242, -21.4143, -30.9616], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([39, 59, 29, 47], device='cuda:0') tensor([39, 59, 29, 47], device='cuda:0')
+Image 6897664; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 149.8; Lr=0.00066
+Predict and target: tensor([-24.6322, -29.6922, -31.8349, -21.5296], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([34, 30, 33,  5], device='cuda:0') tensor([34, 30, 33,  5], device='cuda:0')
+Image 6914048; losses: 0.013; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.0; Lr=0.00063
+Predict and target: tensor([-2.6963e+01, -2.8048e+01, -4.1962e-05, -2.8672e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([15, 55,  0, 14], device='cuda:0') tensor([15, 55,  0, 14], device='cuda:0')
+Image 6930432; losses: 0.011; [Abs,mean]acc: [0.983, 0.996]; Time Cost: 147.8; Lr=0.00063
+Predict and target: tensor([-21.4030, -17.3216, -26.1850, -20.6368], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([13, 39, 49, 41], device='cuda:0') tensor([13, 39, 49, 41], device='cuda:0')
+Image 6946816; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 149.6; Lr=0.00063
+Predict and target: tensor([-25.9284, -16.3307,   0.0000, -22.3407], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([25, 58,  0, 24], device='cuda:0') tensor([25, 32,  0, 24], device='cuda:0')
+Image 6963200; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 147.5; Lr=0.00063
+Predict and target: tensor([-2.3766e+01, -1.9073e-06, -2.1250e+01, -2.4413e+01], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 5,  0, 25, 45], device='cuda:0') tensor([ 5,  0, 25, 45], device='cuda:0')
+Image 6979584; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 148.4; Lr=0.00063
+Predict and target: tensor([-30.0692, -30.9207, -25.9807, -19.8685], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([59, 27, 18,  8], device='cuda:0') tensor([59, 27, 18,  8], device='cuda:0')
+Image 6995968; losses: 0.012; [Abs,mean]acc: [0.982, 0.996]; Time Cost: 150.7; Lr=0.00063
+Predict and target: tensor([-22.7842, -13.3345, -25.1107, -29.1976], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 7, 60, 45, 47], device='cuda:0') tensor([ 7, 60, 45, 47], device='cuda:0')
+Image 7012352; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 150.6; Lr=0.00063
+Predict and target: tensor([-25.1526, -20.4601, -16.7453, -25.2848], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([12, 57, 32, 10], device='cuda:0') tensor([12, 57, 32, 10], device='cuda:0')
+Image 7028736; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.4; Lr=0.00063
+Predict and target: tensor([-24.2873, -21.9286, -28.9290, -30.4638], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([11, 44, 56, 33], device='cuda:0') tensor([11, 44, 56, 33], device='cuda:0')
+Image 7045120; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 147.1; Lr=0.00060
+Predict and target: tensor([-23.2045, -26.1770, -22.5709, -30.2836], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([42, 11, 62, 33], device='cuda:0') tensor([42, 11, 62, 33], device='cuda:0')
+Image 7061504; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 147.5; Lr=0.00060
+Predict and target: tensor([-29.1575, -31.1567, -19.2580, -24.8356], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([12, 44, 42, 40], device='cuda:0') tensor([12, 44, 42, 40], device='cuda:0')
+Image 7077888; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.5; Lr=0.00060
+Predict and target: tensor([-23.0920, -26.9961, -21.0030, -25.0234], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31,  9, 23, 52], device='cuda:0') tensor([31,  9, 23, 52], device='cuda:0')
+Image 7094272; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 151.1; Lr=0.00060
+Predict and target: tensor([-25.6558, -23.6616, -20.2792, -26.0725], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 45, 28, 46], device='cuda:0') tensor([ 2, 45, 28, 46], device='cuda:0')
+Image 7110656; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 149.6; Lr=0.00060
+Predict and target: tensor([-23.1334, -25.7798, -24.2329, -26.8868], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 3, 48, 18, 12], device='cuda:0') tensor([ 3, 48, 18, 12], device='cuda:0')
+Image 7127040; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.7; Lr=0.00060
+Predict and target: tensor([-25.0131, -28.1399, -27.7356, -18.4388], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([16, 48, 37, 21], device='cuda:0') tensor([16, 48, 37, 21], device='cuda:0')
+Image 7143424; losses: 0.013; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 150.0; Lr=0.00060
+Predict and target: tensor([-27.0764, -24.7584, -23.5278, -34.5973], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([35, 45, 37, 12], device='cuda:0') tensor([35, 45, 37, 12], device='cuda:0')
+Image 7159808; losses: 0.012; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 148.9; Lr=0.00060
+Predict and target: tensor([-26.5661, -15.3161, -23.0081, -28.0388], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([27, 58, 17, 30], device='cuda:0') tensor([27, 58, 17, 30], device='cuda:0')
+Image 7176192; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 149.3; Lr=0.00057
+Predict and target: tensor([-31.6215, -30.6669, -28.6466, -27.5129], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([44, 26, 49, 43], device='cuda:0') tensor([44, 26, 49, 43], device='cuda:0')
+Image 7192576; losses: 0.014; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 151.8; Lr=0.00057
+Predict and target: tensor([-25.2341, -33.1428,   0.0000, -23.6677], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([50, 59,  0, 56], device='cuda:0') tensor([50, 59,  0, 56], device='cuda:0')
+Image 7208960; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 149.8; Lr=0.00057
+Predict and target: tensor([-22.9269, -25.5882, -25.4214, -20.2696], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([53, 27, 18, 60], device='cuda:0') tensor([53, 27, 18, 60], device='cuda:0')
+Image 7225344; losses: 0.013; [Abs,mean]acc: [0.979, 0.995]; Time Cost: 150.1; Lr=0.00057
+Predict and target: tensor([-24.4381, -30.2407, -24.1171, -25.5968], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 49, 41, 21], device='cuda:0') tensor([38, 49, 41, 21], device='cuda:0')
+Image 7241728; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 150.6; Lr=0.00057
+Predict and target: tensor([-31.1182, -28.9339, -29.8324, -24.6870], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 2, 52, 47, 16], device='cuda:0') tensor([ 2, 52, 47, 16], device='cuda:0')
+Image 7258112; losses: 0.011; [Abs,mean]acc: [0.983, 0.996]; Time Cost: 149.4; Lr=0.00057
+Predict and target: tensor([-27.5997, -22.6624, -27.5994, -25.4250], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([20, 52,  7,  6], device='cuda:0') tensor([20, 52,  7,  6], device='cuda:0')
+Image 7274496; losses: 0.011; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 150.7; Lr=0.00057
+Predict and target: tensor([-19.0161, -22.8154, -21.0468, -30.6920], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([21, 43, 31, 54], device='cuda:0') tensor([21, 43, 31, 54], device='cuda:0')
+Image 7290880; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 148.3; Lr=0.00057
+Predict and target: tensor([-20.6526, -21.8902, -18.6567, -21.2981], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([ 5, 21, 32, 55], device='cuda:0') tensor([ 5, 21, 32, 55], device='cuda:0')
+Image 7307264; losses: 0.012; [Abs,mean]acc: [0.982, 0.996]; Time Cost: 151.2; Lr=0.00054
+Predict and target: tensor([-30.7266, -23.0456, -19.4871, -23.3925], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([59, 55,  5, 21], device='cuda:0') tensor([59, 55,  5, 21], device='cuda:0')
+Image 7323648; losses: 0.012; [Abs,mean]acc: [0.982, 0.995]; Time Cost: 151.5; Lr=0.00054
+Predict and target: tensor([-22.7569, -20.8606, -25.0569, -24.0261], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([31, 57, 50, 43], device='cuda:0') tensor([31, 57, 50, 43], device='cuda:0')
+Image 7340032; losses: 0.012; [Abs,mean]acc: [0.982, 0.996]; Time Cost: 149.8; Lr=0.00054
+Predict and target: tensor([-28.4107, -32.2295, -20.1902, -31.1126], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([15, 35, 16, 56], device='cuda:0') tensor([15, 35, 16, 56], device='cuda:0')
+Image 7356416; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 147.6; Lr=0.00054
+Predict and target: tensor([-21.8729, -24.9020, -25.9412, -20.6452], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([24, 52, 26, 43], device='cuda:0') tensor([24, 52, 26, 43], device='cuda:0')
+Image 7372800; losses: 0.012; [Abs,mean]acc: [0.981, 0.995]; Time Cost: 148.9; Lr=0.00054
+Predict and target: tensor([-28.6989, -24.1617, -18.9052, -25.3518], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([23, 27, 48, 12], device='cuda:0') tensor([23, 27, 48, 12], device='cuda:0')
+Image 7389184; losses: 0.012; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 150.4; Lr=0.00054
+Predict and target: tensor([-22.1162, -20.0741,   0.0000, -16.5465], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([40, 43,  0,  2], device='cuda:0') tensor([40, 43,  0,  2], device='cuda:0')
+Image 7405568; losses: 0.011; [Abs,mean]acc: [0.982, 0.996]; Time Cost: 149.3; Lr=0.00054
+Predict and target: tensor([-23.0543, -30.5754, -19.4720, -25.9640], device='cuda:0',
+       grad_fn=<SelectBackward>) tensor([38, 33, 31, 18], device='cuda:0') tensor([38, 33, 31, 18], device='cuda:0')
+Image 7421952; losses: 0.012; [Abs,mean]acc: [0.980, 0.995]; Time Cost: 150.6; Lr=0.00054
