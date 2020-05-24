@@ -7,13 +7,21 @@
 ## 目标
 识别 4 * (26个小写字母 + 26个大写字母 + 10个数字 = 62个字符) 的验证码。
 
-## 运行环境
-建议使用anaconda 安装，版本号最好一致。
+## 运行
+
+环境安装: 建议使用anaconda 安装，版本号最好一致。
 1. torch == 1.4
 2. cpatcha == 0.3
 3. tensorboard == 2.1
 4. torchvision == 0.5
 5. numpy
+
+运行脚本
+```bash
+python -m torch.distributed.launch --nproc_per_node=1 run.py 
+```
+
+这里nproc_per_node代表你的电脑有几个GPU(独显)，一般来说只有一个. 运行之前请看看默认参数配置。
 
 ## 参数设置
 default_config.py 中描述了默认参数。
