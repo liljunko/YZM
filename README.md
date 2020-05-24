@@ -58,9 +58,9 @@ class Config:
 ```bash
 tensorboard --logdir=logs/first_logs --bind_all
 ```
-不考虑字符位置顺序的准确率为(mean_acc): **0.99**
+不考虑字符位置顺序的准确率为(mean_acc): **0.995**
 
-考虑字符位置的绝对准确率为(abs_acc): **0.96**. 
+考虑字符位置的绝对准确率为(abs_acc): **0.982**. 
 
 比赛应该要求的是 需要考虑字符位置的 准确率
 
