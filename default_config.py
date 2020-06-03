@@ -11,3 +11,4 @@ class Config:
 	# model_resume = model_saved
 	model_resume = None
 	local_rank = 0  # only for intelliense, useless otherwise
+	multi_gpu = False
