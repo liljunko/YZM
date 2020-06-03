@@ -8,7 +8,7 @@ if __name__ == "__main__":
 	config = Config()
 	config.cuda = True
 
-	if config.cuda:
+	if config.cuda and config.multi_gpu:
 		parser = argparse.ArgumentParser()
 		torch.distributed.init_process_group(backend="nccl")
 		parser.add_argument("--local_rank", type=int)
