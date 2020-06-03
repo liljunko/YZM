@@ -34,10 +34,11 @@ def train(config: Config):
 	model = make_model("resnet50", [3, 4, 6, 3], num_classes, image_shape,
 	                   label_length, False)
 	if config.cuda:
-		model = torch.nn.parallel.DistributedDataParallel(
-		    model.cuda(),
-		    device_ids=[config.local_rank],
-		    output_device=config.local_rank)
+		model = model.cuda()
+		if config.multi_gpu:
+			model = torch.nn.parallel.DistributedDataParallel(
+		    	model,device_ids=[config.local_rank],
+		    	output_device=config.local_rank)
 
 	if config.model_resume is not None:
 		checkpoint = torch.load(config.model_saved)
